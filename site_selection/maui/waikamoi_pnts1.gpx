@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 1.11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="20.797797741668138" minlon="-156.255554509777340" maxlat="20.801836323812914" maxlon="-156.239570646139839"/></metadata>              
+<wpt lat="20.799334484802014" lon="-156.251790384148364">
+  <name>temp_waikamoi_1</name>
+</wpt>
+<wpt lat="20.797972638004389" lon="-156.249309226485906">
+  <name>temp_waikamoi_2</name>
+</wpt>
+<wpt lat="20.798843677623623" lon="-156.246184937814121">
+  <name>temp_waikamoi_3</name>
+</wpt>
+<wpt lat="20.798377902917657" lon="-156.243712371548924">
+  <name>temp_waikamoi_4</name>
+</wpt>
+<wpt lat="20.798715071451056" lon="-156.242278184093806">
+  <name>temp_waikamoi_5</name>
+</wpt>
+<wpt lat="20.800018703897663" lon="-156.249119886825298">
+  <name>temp_waikamoi_6</name>
+</wpt>
+<wpt lat="20.797887698877176" lon="-156.249923489537622">
+  <name>waikamoi_7</name>
+</wpt>
+<wpt lat="20.79805933896191" lon="-156.247708101502496">
+  <name>temp_waikamoi_8</name>
+</wpt>
+<wpt lat="20.80156701458932" lon="-156.250786050954531">
+  <name>temp_waikamoi_9</name>
+</wpt>
+<wpt lat="20.800796084391813" lon="-156.244601461749625">
+  <name>temp_waikamoi_10</name>
+</wpt>
+<wpt lat="20.801626226922171" lon="-156.250191784705123">
+  <name>waikamoi_11</name>
+</wpt>
+<wpt lat="20.798244819064312" lon="-156.243779944663515">
+  <name>temp_waikamoi_12</name>
+</wpt>
+<wpt lat="20.801804507215561" lon="-156.251120759449037">
+  <name>temp_waikamoi_13</name>
+</wpt>
+<wpt lat="20.801203134248258" lon="-156.247114219279212">
+  <name>temp_waikamoi_14</name>
+</wpt>
+<wpt lat="20.799170131326889" lon="-156.248953581954879">
+  <name>temp_waikamoi_15</name>
+</wpt>
+<wpt lat="20.799330528297013" lon="-156.241960177097951">
+  <name>waikamoi_16</name>
+</wpt>
+<wpt lat="20.797807367671208" lon="-156.239570646139839">
+  <name>temp_waikamoi_17</name>
+</wpt>
+<wpt lat="20.800288986822959" lon="-156.243724051101424">
+  <name>temp_waikamoi_18</name>
+</wpt>
+<wpt lat="20.801740380588665" lon="-156.25555450977734">
+  <name>temp_waikamoi_19</name>
+</wpt>
+<wpt lat="20.79921644120056" lon="-156.24502581636591">
+  <name>temp_waikamoi_20</name>
+</wpt>
+<wpt lat="20.799286421111862" lon="-156.244355634981304">
+  <name>temp_waikamoi_21</name>
+</wpt>
+<wpt lat="20.797797741668138" lon="-156.246696600408569">
+  <name>temp_waikamoi_22</name>
+</wpt>
+<wpt lat="20.800364953586588" lon="-156.242657391430157">
+  <name>temp_waikamoi_23</name>
+</wpt>
+<wpt lat="20.800509084477291" lon="-156.244055507010103">
+  <name>temp_waikamoi_24</name>
+</wpt>
+<wpt lat="20.799555471543599" lon="-156.250506749728657">
+  <name>temp_waikamoi_25</name>
+</wpt>
+<wpt lat="20.800734438218321" lon="-156.249891784661713">
+  <name>temp_waikamoi_26</name>
+</wpt>
+<wpt lat="20.798936207069801" lon="-156.247045439764179">
+  <name>waikamoi_27</name>
+</wpt>
+<wpt lat="20.800167351562674" lon="-156.246220676601041">
+  <name>temp_waikamoi_28</name>
+</wpt>
+<wpt lat="20.798835950241124" lon="-156.249895879544056">
+  <name>temp_waikamoi_29</name>
+</wpt>
+<wpt lat="20.798885075846908" lon="-156.247891772017596">
+  <name>temp_waikamoi_30</name>
+</wpt>
+<wpt lat="20.801836323812914" lon="-156.251570977796405">
+  <name>temp_waikamoi_31</name>
+</wpt>
+<wpt lat="20.800395848127597" lon="-156.252666248437265">
+  <name>waikamoi_32</name>
+</wpt>
+<wpt lat="20.79970539074624" lon="-156.251862511139365">
+  <name>temp_waikamoi_33</name>
+</wpt>
+<wpt lat="20.800212660804664" lon="-156.252710812911715">
+  <name>temp_waikamoi_34</name>
+</wpt>
+<wpt lat="20.798543759295217" lon="-156.249798380632399">
+  <name>temp_waikamoi_35</name>
+</wpt>
+<wpt lat="20.799111771912113" lon="-156.246095692171309">
+  <name>temp_waikamoi_36</name>
+</wpt>
+<wpt lat="20.800904050254399" lon="-156.24685699769276">
+  <name>waikamoi_37</name>
+</wpt>
+<wpt lat="20.80019802534072" lon="-156.244356249121722">
+  <name>temp_waikamoi_38</name>
+</wpt>
+<wpt lat="20.801227339648158" lon="-156.248305622845066">
+  <name>temp_waikamoi_39</name>
+</wpt>
+<wpt lat="20.800439373722281" lon="-156.243684785832386">
+  <name>temp_waikamoi_40</name>
+</wpt>
+</gpx>

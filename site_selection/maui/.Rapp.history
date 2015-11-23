@@ -1,0 +1,1172 @@
+n <- 40#
+pnts2 <- runifpoint(n, win=owin(poly=x.poly))#
+pnts2.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_kamakou', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts2.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+alldist <- spDists(pnts2.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 5)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 500) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts2.sp)#
+points(pnts2.sp[useThese, ], pch=16)
+pnts2.sp@data$name[useThese] <- gsub('temp_', '', pnts2.sp@data$name[useThese])
+points(pnts2.sp, col='red')
+pnts2.sp
+useThese
+writeOGR(pnts2.sp, 'kamakou_pnts2.gpx', layer='waypoints', driver='GPX')
+pnts2.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_kamakou', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts2.sp@data$name <- as.character(pnts1.sp@data$name)
+pnts2.sp
+pnts2.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_kamakou', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts2.sp@data$name <- as.character(pnts2.sp@data$name)
+pnts2.sp
+pnts2.sp@data$name[useThese] <- gsub('temp_', '', pnts2.sp@data$name[useThese])
+pnts2.sp
+writeOGR(pnts2.sp, 'kamakou_pnts2.gpx', layer='waypoints', driver='GPX')
+useThese
+330.43/100.74
+library(sp)#
+library(spatstat)#
+library(rgdal)#
+#
+setwd('~/Dropbox/hawaiidimensions/site_selection/maui')
+x <- readOGR('waikamoi_poly1.kml', 'waikamoi_poly1')
+plot(x)
+as(x, 'owin')
+as(as(x, 'SpatialPolygons'), 'owin')
+library(maptools)
+as(as(x, 'SpatialPolygons'), 'owin')
+x.poly <- as(as(x, 'SpatialPolygons'), 'owin')
+n <- 40#
+pnts1 <- runifpoint(n, win=owin(poly=x.poly))#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_kamakou', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)
+x.owin <- as(as(x, 'SpatialPolygons'), 'owin')
+pnts1 <- runifpoint(n, win=x.owin)
+n <- 40#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)
+plot(x)#
+points(pnts1.sp)
+n <- 60#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+plot(x)#
+points(pnts1.sp)
+n <- 80#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+plot(x)#
+points(pnts1.sp)
+alldist <- spDists(pnts1.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+n <- 40#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+plot(x)#
+points(pnts1.sp)#
+#
+alldist <- spDists(pnts1.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+writeOGR(x, 'waikamoi_poly1.gpx', layer='tracks', driver='GPX')
+writeOGR(x, 'waikamoi_poly1.gpx', layer='tracks', driver='GPX', dataset_options='GPX_USE_EXTENSIONS=yes')
+writeOGR(x, 'waikamoi_poly1.gpx', driver='GPX', dataset_options='GPX_USE_EXTENSIONS=yes')
+writeOGR(x, 'waikamoi_poly1.gpx', layer='waypoints', driver='GPX', dataset_options='GPX_USE_EXTENSIONS=yes')
+writeOGR(x, 'waikamoi_poly1.gpx', layer='waypoints', driver='GPX', overwrite_layer=TRUE)
+library(sp)#
+library(spatstat)#
+library(rgdal)#
+library(maptools)#
+#
+setwd('~/Dropbox/hawaiidimensions/site_selection/maui')#
+#
+x <- readOGR('waikamoi_poly1a.kml', 'waikamoi_poly1a')#
+#
+plot(x)
+x.owin <- as(as(x, 'SpatialPolygons'), 'owin')
+n <- 40#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+alldist <- spDists(pnts1.sp, longlat=TRUE)
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+n <- 80#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+alldist <- spDists(pnts1.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+x <- readOGR('waikamoi_poly1.kml', 'waikamoi_poly1')#
+#
+plot(x)#
+x.owin <- as(as(x, 'SpatialPolygons'), 'owin')#
+n <- 40#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+alldist <- spDists(pnts1.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+n <- 40#
+pnts1 <- runifpoint(n, win=x.owin)#
+pnts1.sp <- SpatialPointsDataFrame(coords(pnts1), #
+                                   data=data.frame(name=paste('temp_waikamoi', 1:n, sep='_')), #
+                                   proj4string=CRS(proj4string(x)))#
+pnts1.sp@data$name <- as.character(pnts1.sp@data$name)#
+#
+alldist <- spDists(pnts1.sp, longlat=TRUE)#
+#
+more <- TRUE#
+i <- 1#
+while(more) {#
+	print(i)#
+	useThese <- sample(n, 6)#
+	theseDist <- alldist[useThese, useThese]#
+	more <- !all(theseDist[lower.tri(theseDist)] >= 0.2)#
+	i <- i + 1#
+	if(i > 100) {#
+		more <- FALSE#
+		useThese <- NA#
+	}#
+}#
+#
+plot(x)#
+points(pnts1.sp)#
+points(pnts1.sp[useThese, ], pch=16)
+pnts1.sp
+pnts1.sp@data$name[useThese] <- gsub('temp_', '', pnts1.sp@data$name[useThese])
+pnts1.sp
+writeOGR(pnts1.sp, 'waikamoi_pnts1.gpx', layer='waypoints', driver='GPX')
+setwd('~/Dropbox/hawaiidimensions/site_selection/maui')
+writeOGR(pnts1.sp, 'waikamoi_pnts1.gpx', layer='waypoints', driver='GPX')
+list.files()
+setwd('~/Dropbox/hawaiiDimensions/site_selection/Haw_St_shapefiles/Haw_St_geo_20070426_region')
+hi.geo.poly <- readOGR('.', 'Haw_St_geo_20070426_region')
+ma.geo <- hi.geo.poly[hi.geo.poly$ISLAND=='Maui', ]
+plot(ma.geo)
+plot(pnts1.sp)
+plot(ma.geo, add=TRUE)
+class(ma.geo)
+rasterize(ma.geo)
+library(raster)
+rasterize(ma.geo)
+rasterize(as(ma.geo, 'SpatialPolygons'))
+?rasterize
+plot(pnts1.sp)
+plot(ma.geo, add=TRUE)
+plot(ma.geo)
+plot(pnts1.sp)
+plot(ma.geo)
+plot(pnts1.sp, add=TRUE)
+ma.geo
+pnts1.sp
+plot(spTransform(pnts1.sp, CRS(prog4string(ma.geo))), add=TRUE)
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))), add=TRUE)
+axis(1)
+abline(v=c(780000, 789000))
+abline(v=c(789000, 789000))
+abline(v=c(781000, 789000))
+abline(v=c(785000, 789000))
+abline(v=c(784000, 789000))
+axis(2)
+abline(h=c(2310000))
+abline(h=c(2315000))
+abline(h=c(2300000))
+abline(h=c(2300000, 2305000))
+plot(ma.geom, xlim=c(784000, 789000), ylim=c(2300000, 2305000))
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))), xlim=c(784000, 789000), ylim=c(2300000, 2305000))
+plot(ma.geom, add=TRUE)
+plot(ma.geo, add=TRUE)
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))))
+d
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo)))
+)
+plot(ma.geo, add=TRUE)
+pnts1.sp
+?plot.SpatialPointsDataFrame
+?plot
+?SpatialPointsDataFrame
+points.SpatialPointsDataFrame
+?points.SpatialPointsDataFrame
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))), identify=TRUE)
+coordinates(spTransform(pnts1.sp, CRS(proj4string(ma.geo))))
+text(coordinates(spTransform(pnts1.sp, CRS(proj4string(ma.geo)))), labels=pnts1.sp@data[, 1])
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))), identify=TRUE)#
+text(coordinates(spTransform(pnts1.sp, CRS(proj4string(ma.geo)))), #
+     labels=gsub('.*_', '', pnts1.sp@data[, 1]))
+plot(ma.geo, add=TRUE)
+readOGR('~/Dropbox/hawaiidimensions/site_selection/maui/WAIKAMOI18A.kml', 'WAIKAMOI18A')
+setwd('~/Dropbox/hawaiidimensions/site_selection/maui')
+readOGR('WAIKAMOI18A.kml', 'WAIKAMOI18A')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/maui')
+readOGR('WAIKAMOI18A.kml', 'WAIKAMOI18A')
+x <- readOGR('waikamoi_poly1.kml', 'waikamoi_poly1')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/maui')
+readOGR('WAIKAMOI18A.kml', 'WAIKAMOI18A')
+readOGR('waikamoi_18A.kml', 'waikamoi_18A')
+bla <- readOGR('waikamoi_18A.kml', 'waikamoi_18A')
+points(spTransform(bla, CRS(proj4string(ma.geo))))
+points(spTransform(bla, CRS(proj4string(ma.geo))), pch=16, cex=0.1)
+points(spTransform(bla, CRS(proj4string(ma.geo))), pch=16, cex=0.1, col='red')
+points(spTransform(bla, CRS(proj4string(ma.geo))), pch=16, cex=0.5, col='red')
+plot(spTransform(bla, CRS(proj4string(ma.geo))), pch=16, cex=0.5, col='red', add=TRUE)
+plot(spTransform(bla, CRS(proj4string(ma.geo))), add=TRUE)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big='purple', kauai='blue', maui='red', molokai='orange', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+#
+tiplabels()
+tiplabels(adj=1)
+tiplabels(adj=0)
+tiplabels(adj=-1)
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+#
+tiplabels(adj=-1)
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 36, 37, 40, 44, 50, 52)
+tre
+tre$tip.label
+tre$tip.label[-keep]
+drop.tip(tre, tre$tip.label[-keep])
+plot(drop.tip(tre, tre$tip.label[-keep]))
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big='purple', kauai='blue', maui='red', molokai='orange', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono4.pdf', width=7, height=9)#
+#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+plot(1, pch=16, cex=4, col='darkblue')
+plot(1, pch=16, cex=20, col='darkblue')
+plot(1, pch=16, cex=20, col='lightblue')
+plot(1, pch=16, cex=20, col='skyblue')
+plot(1, pch=16, cex=20, col='skyblue2')
+plot(1, pch=16, cex=20, col='skyblue4')
+plot(1, pch=16, cex=20, col='skyblue3')
+plot(1, pch=16, cex=20, col='skyblue')
+col2rgb('skyblue')
+col2hsv('skyblue')
+col2rgb('skyblue')
+plot(1, pch=16, cex=20, col=rgb(100, 200, 235, maxColorValue=250))
+plot(1, pch=16, cex=20, col=rgb(100, 180, 235, maxColorValue=250))
+plot(1, pch=16, cex=20, col=rgb(100, 190, 235, maxColorValue=250))
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono4.pdf', width=7, height=9)#
+#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono4.pdf', width=7, height=9)#
+#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=4)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=2)
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=2)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+# keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          # 30, 31, 32, 34, 36, 37, 40, 44, 50, 52)#
+# tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono4.pdf', width=7, height=9)#
+#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=2)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)
+tiplabels(adj=-1)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 49, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+# keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          # 30, 31, 32, 34, 35, 36, 37, 40, 44, 49, 50, 52)#
+# tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+tiplabels(adj=-1)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+tiplabels(adj=-1)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+# keep <- c(1, 2, 3, 5, 6, 9, 10, 14, 18, 21, 25, 29, #
+          # 30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+# tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+tiplabels(adj=-1)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 5, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+tiplabels(adj=-1)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=1)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+tiplabels(adj=-1)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), y.lim=c(-1, Ntip(tre)), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+plot(tre, x.lim=c(-0.5, 5), y.lim=c(-0.5, Ntip(tre)), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+plot(tre, x.lim=c(-0.5, 5), y.lim=c(-0.2, Ntip(tre)), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.2, 4),
+labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.5, 4),
+labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+# keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          # 30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+# tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), y.lim=c(-0.2, Ntip(tre)), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.5, 4),#
+     labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=1)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+# arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+# text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.5, 4),#
+     # labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+# axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+# mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+# pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.53, cex=2)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+# arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+# text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.5, 4),#
+     # labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+# axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+# mtext('Time (mya)', side=1, line=2)#
+# dev.off()
+tiplabels(col=island.col[spec$island], pch=15, adj=0.5, cex=2)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.75, cex=2)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.6, cex=2)
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.6, cex=2)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.55, cex=2)
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)
+tiplabels(col=island.col[spec$island], pch=15, adj=0.55, cex=2)
+setwd('~/Dropbox/hawaii_spiders/ibsPhylo/data')#
+library(ape)#
+source('philodromid_phylo_plotting_prep.R')#
+#
+## colors for islands#
+island.col <- c(big=rgb(100, 190, 235, maxColorValue=250), kauai='darkblue', maui='red', molokai='red', oahu='yellow2')#
+#
+## drop some redundant tips#
+dropthese <- sprintf('AJR%s_COI-H3', c(114, 725, 467, 465, 466, 1776, 1805, 511, 427, #
+                                       453, 452, 456, 659, 666, 662, 637, 641, 1871, #
+                                       1858, 1801, 129, 108, 463, 83, 1802, 504, 449,#
+                                       92, 1788, 470, 515, 159, 661, 449, 664))#
+tre <- tre[-4]#
+class(tre) <- 'phylo'#
+tre <- drop.tip(tre, dropthese)#
+tre <- rotate(tre, 82)#
+tre <- rotate(tre, 80)#
+tre <- rotate(tre, 56)#
+tre <- rotate(tre, 75)#
+#
+## for some reason plotting tip order was messed up so re-read in#
+tre <- read.tree(text=write.tree(tre))#
+keep <- c(1, 2, 3, 9, 10, 18, 21, 25, 29, #
+          30, 31, 32, 34, 35, 36, 37, 40, 44, 50, 52)#
+tre <- drop.tip(tre, tre$tip.label[-keep])#
+#
+spec <- spec[match(gsub('_.*', '', tre$tip.label), spec$LUID), ]#
+#
+pdf(file='../philodromid_chrono_trimmed.pdf', width=7, height=9)#
+par(mar=c(4, 0, 0, 0)+0.1)#
+plot(tre, x.lim=c(-0.5, 5), show.tip.label=FALSE)#
+tiplabels(col=island.col[spec$island], pch=15, adj=0.55, cex=2)#
+# tiplabels(paste(spec$taxon, luid), col=island.col[spec$island], bg='transparent', frame='none', adj=0)#
+# arrows(x0=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y0=1, y1=par('usr')[3], length=0.1, lwd=1.4)#
+# text(x=max(branching.times(tre)) - c(0.5, 1.7, 2.2, 3.8), y=rep(0.5, 4),#
+     # labels=c('Big Island ', 'Maui ', 'Molokai ', 'Oahu '), adj=2)#
+# axis(1, at=max(branching.times(tre)) - 0:4, labels=0:4)#
+# mtext('Time (mya)', side=1, line=2)#
+dev.off()
+setwd("~/Berkeley/hawaii/spider_age-area")#
+#
+source("area_age_div.R")#
+source("~/R_functions/logAxis.R")#
+#
+spid.rad <- read.csv("HawaiiSpiderRadiations.csv",stringsAsFactors=FALSE,header=TRUE)#
+spid.rad$gensp <- with(spid.rad,paste(Genus,species))#
+spid.rad$MaNu <- with(spid.rad, as.numeric(Mo + Ln + Ma > 0))#
+#
+hi.geo <- read.table("hawaii_geo.txt",stringsAsFactors=FALSE,header=TRUE)
+hi.geo <- rbind(hi.geo,#
+	with(hi.geo,#
+		data.frame(island = "MauiNui", #
+			age = max(age[island %in% c("Maui", "Lanai", "Molokai")]), #
+			area = sum(area[island %in% c("Maui", "Lanai", "Molokai")]), #
+			stringsAsFactors = FALSE)))#
+#
+islnd.div <- apply(spid.rad[,c("Ka", "Oa", "Mo", "Ln", "Ma", "MaNu", "Ha")],2,sum)#
+names(islnd.div) <- c("Kauai","Oahu","Molokai","Lanai","Maui","MauiNui","Hawaii")#
+#
+hi.geo$div <- islnd.div[hi.geo$island]#
+hi.geo <- hi.geo[!(hi.geo$island %in% c("Molokai","Lanai","Maui")),]
+hi.geo
+calc.spid.div <- function(taxon,level) {#
+	this.taxon <- spid.rad[spid.rad[,level] == taxon,c("Ka", "Oa", "MaNu", "Ha")]#
+	div <- apply(this.taxon,2,sum)#
+	endem.yes <- rowSums(this.taxon) == 1#
+	endem <- apply(this.taxon, 2, function(x) sum(x[endem.yes]))#
+	out <- cbind(div,endem)#
+	rownames(out) <- c("Kauai","Oahu","MauiNui","Hawaii")#
+	return(out)#
+}#
+#
+plot.spid.div <- function(x, H=0, S=1, V=1, ...) {#
+	with(hi.geo[order(hi.geo$age),], {#
+		plot(age, x[island,1],type="b",xlim=rev(range(age)),#
+			col=hsv(H,S,V), ...)#
+		polygon(x = c(age[1],age,age[length(age)]),#
+			y = c(1,x[island,2],1), col=hsv(H,S,V,alpha=0.2), border=NA)#
+	})#
+}#
+#
+##	tetragnatha#
+tetra.div <- calc.spid.div("Tetragnatha","Genus")#
+#
+##	orsonwells#
+orson.div <- calc.spid.div("Orsonwelles","Genus")#
+#
+##	thomisid#
+thomi.div <- calc.spid.div("Thomisidae","Family")#
+#
+##	philodromid#
+philo.div <- calc.spid.div("Philodromidae","Family")
+philo.div
+library(raster)#
+#
+setwd('~/Dropbox/hawaiiDimensions/site_selection/Haw_St_shapefiles/Haw_St_geo_20070426_region')#
+hi.geo.poly <- readOGR('.', 'Haw_St_geo_20070426_region')#
+mo.geo <- hi.geo.poly[hi.geo.poly$ISLAND=='Molokai', ]
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/molokai')
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final')
+plot(spTransform(pnts1.sp, CRS(proj4string(ma.geo))))
+text(coordinates(spTransform(pnts1.sp, CRS(proj4string(ma.geo)))), #
+     labels=gsub('.*_', '', pnts1.sp@data[, 1]))
+plot(mo.geo, add=TRUE)
+spDists(pnts1.sp, longlat=TRUE)
+pnts1.sp
+spDists(pnts1.sp, longlat=TRUE)
+coordiante(pnts1.sp)
+coordiantes(pnts1.sp)
+library(sp)
+spDists(coordinates(pnts1.sp), longlat=TRUE)
+coordinates(pnts1.sp)
+spDists(coordinates(pnts1.sp)[, 1:2], longlat=TRUE)
+spDists(coordinates(pnts1.sp)[, 1:2], longlat=TRUE)*100
+spDists(coordinates(pnts1.sp)[, 1:2], longlat=TRUE)*1000
+library(raster)#
+library(sp)#
+#
+setwd('~/Dropbox/hawaiiDimensions/site_selection/Haw_St_shapefiles/Haw_St_geo_20070426_region')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/molokai')#
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final')
+library(rgdal)
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/molokai')
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final')
+library(maptools)
+?readShapeSpatial
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points')
+pnts1.sp <- readOGR('kamakou_points_final.kml', 'kamakou_points_final.kml')
+pnts1.sp
+coords(pnts1.sp)
+coordinates(pnts1.sp)
+proj4string(pnts1.sp)
+names(pnts1.sp)
+names(pnts1.sp$Name)
+pnts1.sp$Name
+cbind(pnts1.sp$Name, coordinates(pnts1.sp))
+data.frame(pnts1.sp$Name, coordinates(pnts1.sp))
+data.frame(pnts1.sp$Name, coordinates(pnts1.sp)[, -3])
+write.table('temp.csv', data.frame(pnts1.sp$Name, coordinates(pnts1.sp)[, -3]))
+write.table(data.frame(pnts1.sp$Name, coordinates(pnts1.sp)[, -3]), 'temp.csv')
+write.table(data.frame(pnts1.sp$Name, coordinates(pnts1.sp)[, -3]), 'temp.csv', sep=',')
+spTransform(pnts1.sp, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0'))
+temp <- spTransform(pnts1.sp, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0'))
+data.frame(temp$Name)
+data.frame(temp$Name, coordinates(temp))
+write.table(data.frame(temp$Name, coordinates(temp)), 'temp.csv', sep=',', row.names=FALSE)
+setwd('../')
+list.files()
+setwd('maui')
+list.files9
+list.files()
+pnts1.sp <- readOGR('waikamoi_points_final.kml', 'waikamoi_points_final.kml')
+pnts1.sp
+pnts1.sp$Names
+pnts1.sp$Name
+proj4string(pnts1.sp)
+temp <- spTransform(pnts1.sp, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0'))
+write.table(data.frame(temp$Name, coordinates(temp)), 'temp.csv', sep=',', row.names=FALSE)

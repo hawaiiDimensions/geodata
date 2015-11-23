@@ -1,0 +1,380 @@
+N <- 5000#
+m <- rlnorm(N, 3, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n')#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red')#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', log='x')
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red')
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red')
+fit <- fitdistr(n, 'negative binomial')
+library(MASS)
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 3, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n')#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red')#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 3, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n')#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 3, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n')#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n', ylim=c(min(ecdf(n)(1), pnbinom(1)), 1))
+ecdf(n)(1)
+pnbinom(1)
+plot(ecdf(n)(1:max(n)), log='xy', xaxt='n', ylim=c(min(ecdf(n)(1), pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu'])), 1))
+pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']))
+pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu'])
+min(ecdf(n)(1), #
+            pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']))
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu'])), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu'])), 1)
+c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu'])), 1))
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 1, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 2, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 2, 0.2)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 2, 0.2)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='xy')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 2, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='xy')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 2, 0.01)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='xy')
+library(MASS)#
+#
+N <- 5000#
+m <- rlnorm(N, 3, 0.01)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='xy')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 3, 0.01)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='xy')
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+n
+min(n)
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 0, 0.01)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 0, 0.1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 0, 1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 0, 2)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 0.1, 2)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 1, 2)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 1, 1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+library(MASS)#
+#
+N <- 10000#
+m <- rlnorm(N, 1, 1)#
+n <- rpois(N, m)#
+#
+fit <- fitdistr(n, 'negative binomial')#
+#
+par(mfcol=c(2, 1), mar=rep(0.1, 4), oma=c(4, 4, 1, 1))#
+plot(ecdf(n)(1:max(n)), #
+     log='xy', xaxt='n', #
+     ylim=c(pnbinom(1, size=fit$estimate['size'], mu=fit$estimate['mu']), 1))#
+points(pnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+       col='red', type='b', cex=0.5, pch=16)#
+plot(dnbinom(1:max(n), size=fit$estimate['size'], mu=fit$estimate['mu']), #
+     col='red', type='b', cex=0.5, pch=16, log='x')
+49.28 + #
+18.84 +#
+11.65 +#
+56.06 + # walmart, remove some#
+20.80 +#
+80.59
+2.24/65.06
+2.24/56.06
+(11.94 + 17.22) * (2.24/56.06 + 1)
+49.28 + #
+18.84 +#
+11.65 +#
+30.33 + # walmart, remove some#
+20.80 +#
+80.59
+11/1.6
+2*(11/1.6)
+## load needed libraries#
+library(sp)#
+library(rgdal)
+setwd('~/Dropbox/hawaiiDimensions/site_selection/kauai')
+readOGR('kokee_pnts_final.kml', 'kokee_pnts_final')
+setwd('~/Dropbox/hawaiiDimensions/site_selection/kauai')
+list.files()
+readOGR('kokee_pnts_final.kml', 'Waypoints', )
+readOGR('kokee_pnts_final.kml', 'kokee_pnts_final')
+readOGR('.', 'kokee_pnts_final')
+readOGR('.', 'kokee_pnts_final.kml')
+readOGR('./', 'kokee_pnts_final.kml')
+readOGR('kokee_pnts_final.kml', 'kokee_pnts_final.kml')
+x <- readOGR('kokee_pnts_final.kml', 'kokee_pnts_final.kml')
+x
+spTransform(x, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0'))
+proj4string(x)
+proj4string(spTransform(x, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0')))
+x <- spTransform(x, CRS('+init=epsg:4269 +proj=longlat +ellps=GRS80 +datum=NAD83 +no_defs +towgs84=0,0,0'))
+coords(x)
+coordinates(x)
+anbo
+meteESF
+devtools::intall_github('merow/meteR')
+devtools::install_github('merow/meteR')
+devtools::install_github('cmerow/meteR')
+x@data
+coordinates(x)
+write.table(coordinates(x), '~/temp.txt', sep='\t')

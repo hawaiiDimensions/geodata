@@ -1,0 +1,57 @@
+library(sp)
+library(rgdal)
+setwd('~/Dropbox/hawaiidimensions/site_selection/kauai/LSAGWaialaePolygons')
+list.files('./', pattern='shp')
+polys <- list.files('./', pattern='shp')
+polys
+readOGR('./', polys[1])
+readOGR('./', gsub('\\.shp', '', polys[1]))
+polys <- lapply(1:length(poly.files), function(i) readOGR('./', gsub('\\.shp', '', poly.files[i])))
+poly.files <- list.files('./', pattern='shp')
+polys <- lapply(1:length(poly.files), function(i) readOGR('./', gsub('\\.shp', '', poly.files[i])))
+onepoly <- do.call(rbind, polys)
+?rbind
+class(polys[[1]])
+rbind(polys[[1]], polys[[2]])
+rbind(polys[1], polys[2])
+poly.files
+rbind(polys[[1]])
+?spChFIDs
+require(maptools)#
+xx <- readShapePoly(system.file("shapes/sids.shp", package="maptools")[1], #
+  IDvar="FIPSNO", proj4string=CRS("+proj=longlat +ellps=clrk66"))#
+row.names(as(xx, "data.frame"))
+head(xx@data)
+head(polys[[1]]@data)
+dim(polys[[1]]@data)
+dim(polys[[2]]@data)
+polys[[2]]@data
+polys[[1]]@data
+polys[[3]]@data
+as(polys[[3]], 'data.frame')
+rownames(as(polys[[3]], 'data.frame'))
+i <- 1
+paste(rownames(as(polys[[i]], 'data.frame')), i, sep='')
+i <- 1#
+spChFIDs(polys[[i]], paste(i, rownames(as(polys[[i]], 'data.frame')), sep=''))
+library(sp)#
+library(rgdal)#
+#
+setwd('~/Dropbox/hawaiidimensions/site_selection/kauai/LSAGWaialaePolygons')#
+#
+poly.files <- list.files('./', pattern='shp')#
+#
+polys <- lapply(1:length(poly.files), function(i) {#
+	x <- readOGR('./', gsub('\\.shp', '', poly.files[i]))#
+	spChFIDs(x, paste(i, rownames(as(x, 'data.frame')), sep=''))#
+})
+do.call(rbind, polys)
+onepoly <- do.call(rbind, polys)
+plot(onepoly)
+?writeOGR
+?writeOGR
+writeOGR(onepoly, 'kauai_poly.kml', layer='kauai_poly', driver='KML')
+spTransform(onepoly, CRS('+proj=longlat +datum=WGS84 +ellps=WGS84'))
+onepoly <- spTransform(onepoly, CRS('+proj=longlat +datum=WGS84 +ellps=WGS84'))
+writeOGR(onepoly, 'kauai_poly.kml', layer='kauai_poly', driver='KML')
+list.files()

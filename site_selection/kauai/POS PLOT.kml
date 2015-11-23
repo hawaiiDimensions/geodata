@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kmlx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <Document>
+    <Style id="point">
+      <IconStyle>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>POS PLOT</name>
+        <Style>
+          <IconStyle>
+            <scale>0.9</scale>
+            <Icon>
+              <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
+        <Point>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-159.623611997812986,22.139889970421791,1186.160399999999981</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

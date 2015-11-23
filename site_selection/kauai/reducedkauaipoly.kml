@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>reducedkauaipoly.kml</name>
+	<Schema name="kauai_poly" id="kauai_poly">
+		<SimpleField type="int" name="Id"></SimpleField>
+	</Schema>
+	<Folder>
+		<name>reducedkauaipoly</name>
+		<open>1</open>
+		<Placemark>
+			<name>part1</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#kauai_poly">
+					<SimpleData name="Id">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-159.6205939167797,22.13907450359752,0 -159.6204790857207,22.13992323744508,0 -159.6203642546945,22.14077197152243,0 -159.6184454123299,22.14085016091286,0 -159.61697971937,22.13928351342527,0 -159.6161507729113,22.13762915618077,0 -159.6155422866799,22.13549231726689,0 -159.6159456789199,22.13419950929731,0 -159.6174039467572,22.13325489502802,0 -159.61948960811,22.13343757078198,0 -159.6204565358543,22.13473631159504,0 -159.6201280341234,22.13621135164168,0 -159.6209702463446,22.13720636617086,0 -159.6207720191489,22.13816143147032,0 -159.6204231285607,22.13873148995181,0 -159.6205939167797,22.13907450359752,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>part2</name>
+			<Style>
+				<LineStyle>
+					<color>ff0000ff</color>
+				</LineStyle>
+				<PolyStyle>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#kauai_poly">
+					<SimpleData name="Id">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-159.6289977670773,22.12981788060941,0 -159.6291102762475,22.13080143930626,0 -159.6284901845816,22.13171195100518,0 -159.6298277350632,22.13431303074128,0 -159.630133921379,22.13518575191513,0 -159.6304420450237,22.13609956546488,0 -159.6308023485596,22.13812291231547,0 -159.6311312952327,22.1408886456791,0 -159.6302983701594,22.14197255064901,0 -159.6287131154089,22.14162552031722,0 -159.6258423945662,22.13978692097419,0 -159.6242088994049,22.13841247739759,0 -159.6225471865394,22.13878902387903,0 -159.6218754810519,22.13389619685475,0 -159.6231054297456,22.13279615074444,0 -159.6242410740696,22.13062944198804,0 -159.6252545852349,22.13056753810886,0 -159.6259203497224,22.13156971961485,0 -159.6289977670773,22.12981788060941,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>WAYPOINT</name>
+  <Placemark>
+	<name>Kauai HDIM prelim site</name>
+	<description></description>
+	<ExtendedData><SchemaData schemaUrl="#WAYPOINT">
+		<SimpleData name="type">WAYPOINT</SimpleData>
+		<SimpleData name="Latitude">22.13743000</SimpleData>
+		<SimpleData name="Longitude">-159.62442000</SimpleData>
+		<SimpleData name="y_proj">2462989.12042544</SimpleData>
+		<SimpleData name="x_proj">-184214.76553937</SimpleData>
+		<SimpleData name="display"></SimpleData>
+		<SimpleData name="symbol"></SimpleData>
+		<SimpleData name="dist">0.00</SimpleData>
+		<SimpleData name="proximity"></SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="altitude">0.44</SimpleData>
+		<SimpleData name="depth">0.00</SimpleData>
+		<SimpleData name="temp">0.00</SimpleData>
+		<SimpleData name="time"></SimpleData>
+		<SimpleData name="wpt_class"></SimpleData>
+		<SimpleData name="sub_class"></SimpleData>
+		<SimpleData name="attrib"></SimpleData>
+		<SimpleData name="link"></SimpleData>
+		<SimpleData name="state"></SimpleData>
+		<SimpleData name="country"></SimpleData>
+		<SimpleData name="city"></SimpleData>
+		<SimpleData name="address"></SimpleData>
+		<SimpleData name="zip"></SimpleData>
+		<SimpleData name="facility"></SimpleData>
+		<SimpleData name="crossroad"></SimpleData>
+		<SimpleData name="ete"></SimpleData>
+		<SimpleData name="dtype"></SimpleData>
+		<SimpleData name="model"></SimpleData>
+		<SimpleData name="filename"></SimpleData>
+		<SimpleData name="ltime"></SimpleData>
+		<SimpleData name="magvar">0.00</SimpleData>
+		<SimpleData name="geoidheight">0.00</SimpleData>
+		<SimpleData name="desc"></SimpleData>
+		<SimpleData name="fix"></SimpleData>
+		<SimpleData name="hdop">0.00</SimpleData>
+		<SimpleData name="vdop">0.00</SimpleData>
+		<SimpleData name="pdop">0.00</SimpleData>
+		<SimpleData name="dir"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.62442000182421,22.137429998411182,0.878692348487675</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="WAYPOINT" id="WAYPOINT">
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="y_proj" type="float"></SimpleField>
+	<SimpleField name="x_proj" type="float"></SimpleField>
+	<SimpleField name="display" type="string"></SimpleField>
+	<SimpleField name="symbol" type="string"></SimpleField>
+	<SimpleField name="dist" type="float"></SimpleField>
+	<SimpleField name="proximity" type="string"></SimpleField>
+	<SimpleField name="color" type="string"></SimpleField>
+	<SimpleField name="altitude" type="float"></SimpleField>
+	<SimpleField name="depth" type="float"></SimpleField>
+	<SimpleField name="temp" type="float"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="wpt_class" type="string"></SimpleField>
+	<SimpleField name="sub_class" type="string"></SimpleField>
+	<SimpleField name="attrib" type="string"></SimpleField>
+	<SimpleField name="link" type="string"></SimpleField>
+	<SimpleField name="state" type="string"></SimpleField>
+	<SimpleField name="country" type="string"></SimpleField>
+	<SimpleField name="city" type="string"></SimpleField>
+	<SimpleField name="address" type="string"></SimpleField>
+	<SimpleField name="zip" type="string"></SimpleField>
+	<SimpleField name="facility" type="string"></SimpleField>
+	<SimpleField name="crossroad" type="string"></SimpleField>
+	<SimpleField name="ete" type="string"></SimpleField>
+	<SimpleField name="dtype" type="string"></SimpleField>
+	<SimpleField name="model" type="string"></SimpleField>
+	<SimpleField name="filename" type="string"></SimpleField>
+	<SimpleField name="ltime" type="string"></SimpleField>
+	<SimpleField name="magvar" type="float"></SimpleField>
+	<SimpleField name="geoidheight" type="float"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="fix" type="string"></SimpleField>
+	<SimpleField name="sat" type="int"></SimpleField>
+	<SimpleField name="hdop" type="float"></SimpleField>
+	<SimpleField name="vdop" type="float"></SimpleField>
+	<SimpleField name="pdop" type="float"></SimpleField>
+	<SimpleField name="ageofdgpsdata" type="int"></SimpleField>
+	<SimpleField name="dgpsid" type="int"></SimpleField>
+	<SimpleField name="dir" type="string"></SimpleField>
+</Schema>
+</Document></kml>

@@ -1,0 +1,2225 @@
+[SECTION 1, IDENTIFICATION INFORMATION]
+
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: David R. Sherrod
+      Publication_Date: 2008
+      Title: Database to accompany geologic map of the State of Hawaii
+      Geospatial_Data_Presentation_Form: vector digital data
+      Series_Information:
+        Series_Name: Geologic Investigations Series Map
+        Issue_Identification: I-XXXX
+      Publication_Information:
+        Publication_Place: Menlo Park, Calif.
+        Publisher: U.S. Geological Survey
+      Online_Linkage: http://pubs.usgs.gov/imap/iXXXX
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: David R. Sherrod
+          Originator: John M. Sinton
+          Originator: Sarah E. Watkins
+          Originator: Kelly M. Brunt
+          Publication_Date: 2008
+          Title: Geologic map of the State of Hawaii
+          Geospatial_Data_Presentation_Form: printed map
+            Other_citation_details: several map sheets with 80-page explanatory pamphlet.
+          Series_Information:
+            Series_Name: Geologic Investigations Series Map
+            Issue_Identification: I-XXXX
+          Publication_Information:
+            Publication_Place: Menlo Park, Calif.
+            Publisher: U.S. Geological Survey
+          Online_Linkage: http://pubs.usgs.gov/imap/iXXXX
+  Description:
+    Abstract: This digital publication contains all the geologic map information used to publish U.S. Geological Survey Geologic Investigations Map Series I-XXXX (Sherrod and others, 2008).  This geologic map shows the distribution and stratigraphic relation of volcanic, intrusive, and sedimentary units emplaced in the past 8 million years across the eight principal islands of the Hawaiian archipelago, State of Hawaii, U.S.A.
+    Purpose:  This database was constructed in order to assess volcano and earthquake hazards and ground-water distribution in the State of Hawaii.
+    Supplemental_Information:
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2003
+        Ending_Date: 2006
+    Currentness_Reference:  The ground-condition information and scientific citations in the report are the most up-to-date available as of December 2006, when the map was approved for publication by Volcano Hazards team, U.S. Geological Survey
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -160.27
+      East_Bounding_Coordinate: -154.78
+      North_Bounding_Coordinate: 22.25
+      South_Bounding_Coordinate: 18.88
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: geologic map
+      Theme_Keyword: geology
+      Theme_Keyword: volcanoes
+      Theme_Keyword: faults
+      Theme_Keyword: intermediate scale
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: United States of America
+      Place_Keyword: State of Hawaii
+      Place_Keyword: Kauai County
+      Place_Keyword: Honolulu County
+      Place_Keyword: Maui County
+      Place_Keyword: Hawaii County
+      Place_Keyword: Haleakala National Park
+      Place_Keyword: Kahalui
+      Place_Keyword: Wailuku
+      Place_Keyword: Hana
+    Stratum:
+      Stratum_Keyword_Thesaurus: None
+      Stratum_Keyword: East Molokai Volcanics
+      Stratum_Keyword: Hamakua Volcanics
+      Stratum_Keyword: Hana Volcanics
+      Stratum_Keyword: Hawi Volcanics
+      Stratum_Keyword: Hilina Basalt
+      Stratum_Keyword: Honolulu Volcanics
+      Stratum_Keyword: Honomanu Basalt
+      Stratum_Keyword: Hualalai Volcanics
+      Stratum_Keyword: Kau Basalt
+      Stratum_Keyword: Kahuku Basalt
+      Stratum_Keyword: Kalaupapa Volcanics
+      Stratum_Keyword: Kanapou Volcanics
+      Stratum_Keyword: Kaupo Mud Flow
+      Stratum_Keyword: Kiekie Basalt
+      Stratum_Keyword: Koolau Basalt
+      Stratum_Keyword: Koloa Volcanics
+      Stratum_Keyword: Kula Volcanics
+      Stratum_Keyword: Lahaina Volcanics
+      Stratum_Keyword: Laupahoehoe Volcanics
+      Stratum_Keyword: Ninole Basalt
+      Stratum_Keyword: Paniau Basalt
+      Stratum_Keyword: Pololu Volcanics
+      Stratum_Keyword: Puna Basalt
+      Stratum_Keyword: Tuff of Mokuhooniki cone
+      Stratum_Keyword: Waianae Volcanics
+      Stratum_Keyword: Wailuku Basalt
+      Stratum_Keyword: Waimea Canyon Basalt
+      Stratum_Keyword: West Molokai Volcanics
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: Quaternary
+      Temporal_Keyword: Tertiary
+      Temporal_Keyword: Holocene
+      Temporal_Keyword: Pleistocene
+      Temporal_Keyword: Pliocene
+      Temporal_Keyword: Miocene
+  Access_Constraints: None
+  Use_Constraints:  Uses of this digital geologic map should not violate the spatial resolution of the data.  Although the digital form of the data removes the constraint imposed by the scale of a paper map, the detail and accuracy inherent in map scale are also present in the digital data.  This map was compiled and edited for scale 1:100,000, so no higher-resolution information is present in the dataset.  Plotting at scales larger than 1:100,000 will not yield greater real detail, although it may reveal fine-scale irregularities below the intended resolution of the database.  Similarly, where this database is used in combination with other data of higher resolution, the resolution of the combined output will be limited by the lower resolution of these data.  Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.  There are no expressed warranties associated with the release of this database.  Specifically, no warranty is made that the GIS data or any subsequent updates will be error free, and no warranty is made regarding the positional or thematic accuracy of the GIS data.  The GIS data and any features they depict do not represent or confer any legal rights, privileges, benefits, boundaries, or claims of any kind.  The U.S. Geological Survey encourages GIS data users to verify the suitability of the data before use.  Please report any discrepancies or errors to ____________, Western Publications Group, 345 Middlefield Road, Menlo Park, CA  94025.  Phone:  (650) 329-XXXX; email: ____@usgs.gov.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey Western Publications Group
+      Contact_Position:  Chief of Western Publications Group
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 345 Middlefield Road
+        City: Menlo Park
+        State_or_Province: California
+        Postal_Code: 94025
+        Country: U.S.A.
+      Contact_Voice_Telephone: (650) 329-5057
+      Contact_Facsimile_Telephone: (650) 329-5051
+      Contact_Electronic_Mail_Address:
+        __________
+        __________
+      Contact_Electronic_Mail_Address:
+      Hours_of_Service: 7:45 a.m. to 4:30 p.m.
+      Contact_Instructions: please address all comments or questions to the e-mail address given above whenever possible.
+  Browse_Graphic:
+    Browse_Graphic_File_Name:
+    Browse_Graphic_File_Description:
+    Browse_Graphic_File_Type:
+  Data_Set_Credit:  Sources of mapping are indicated on geologic map sheet of USGS I-Map XXXX (Sherrod and others, 2008).  Acknowledgment of other data is found in the map's description of map units and explanatory pamphlet.
+  Security_Information:
+    Security_Classification_System: None
+    Security_Classification: Unclassified
+    Security_Handling_Description: None
+  Native_Data_Set_Environment: Windows XP Professional; MapInfo Pro Version 7.0
+
+[SECTION 2, DATA QUALITY INFORMATION, mandatory if applicable.  May be provided in the form of browse graphics (would need URL of the graphic) or through online services.]
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Good.  Feature attributes were entered by Sarah E. Watkins and David R. Sherrod, reviewed by Donald A. Swanson and Edward M. Wolfe, then later checked by USGS Geologic Map Editor __________ and USGS senior author Sherrod.  The attributes consist of text identifiers and numeric codes for each geologic unit or type of geologic feature, and they determine how each feature is colored or symbolized.  For purposes of checking attribute accuracy, a color plot was visually compared to the geologists' original compilation.  Discrepancies between the digital geospatial dataset and the original analog compilation were corrected as needed.  Machine-created listings of unique attribute values were used to identify spelling errors or other inconsistencies, and corrections were made as needed.
+    Quantitative_Attribute_Accuracy_Assessment:
+      Attribute_Accuracy_Value:
+      Attribute_Accuracy_Explanation:
+  Logical_Consistency_Report: Polygon and arc (chain-node) topology present in MapInfo coverages.  Other coverages are point or annotation; neither they nor any supplied raster images require topologic relations.  Polygon coverages were tested topologically using Mapinfo software, with no errors found for duplicate nodes, overlaps, or gaps.
+  Completeness_Report:  This dataset is intended to describe completely the igneous and sedimentary products and structural features at 1:100,000 scale.  Omitted in most places are those features whose visual resolution requires a substantially larger scale of presentation.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:  Geologic source data were compiled electronically from source maps, some of which were produced originally on topographic base maps published in the 1920s.  These data were fitted to modern topography using 7.5-minute topographic digital raster graphs from the 1980s, with exception of Island of Hawaii, the data for which were provided in electronic format.  Consequently, data have a horizontal positional accuracy corresponding to 1 mm at the scale of the intermediate-scale map, or ranging from plus-or-minus 15 to 50 meters on the ground.  An overall accuracy is reported here as within 100 meters on the ground.  Inaccuracies associated with the 7.5-minute topographic maps themselves, which are within National Map Accuracy Standards, will be far less than the stated accuracy of the 100,000-scale geologic map.
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value:
+        Horizontal_Positional_Accuracy_Explanation:
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: No vertical positional data recorded in polygon or arc (chain-node) coverages. Databases for geochemical and radiometric samples report orthometric altitude, which was estimated by inspection of plotted points on digital raster graphs of 1:24,000-scale topographic quadrangles. Accuracy is no better than one-half the contour interval, which ranges from 10 to 40 ft.
+      Quantitative_Vertical_Positional_Accuracy_Assessment:
+        Vertical_Positional_Accuracy_Value:
+        Vertical_Positional_Accuracy_Explanation:
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Sherrod, D.R.
+          Originator: Sinton, J.M.
+          Originator: Watkins, S.E.
+          Originator: Brunt, K.M.
+          Publication_Date: 2008, anticipated
+          Title:  Geologic Map of the State of Hawaii
+          Geospatial_Data_Presentation_Form: map
+          Series_Information:
+            Series_Name: Geologic Investigations Series I-XXXX, to be assigned
+          Publication_Information:
+            Publication_Place: Reston, Va.
+            Publisher: U.S. Geological Survey
+            Other_citation_details: several sheets with 80-page explanatory pamphlet.
+          Online_Linkage: Unknown
+      Source_Scale_Denominator: 100,000 and 250,000
+      Type_of_Source_Media: paper
+    Process_Step:
+      Process_Description: Digital files were provided to Western Publications group by the first author.
+      Process_Date: 2007-2008
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: U.S. Geological Survey, Western Publications Group
+            Contact_Person: _________
+          Contact_Position: GIS Publications Manager
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 345 Middlefield Road
+            City: Menlo Park
+            State_or_Province: California
+            Postal_Code: 94025
+            Country: USA
+          Contact_Voice_Telephone:
+            (Name), (650) 329-XXXX
+          Contact_TDD/TTY_Telephone:
+          Contact_Facsimile_Telephone: (650) 329-5051
+          Contact_Electronic_Mail_Address:
+            (Name), XXXX@usgs.gov
+          Hours_of_Service: 7:45 a.m. to 4:30 p.m. PST
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Blay, C.T., and Longman, M.W.
+          Publication_Date: 2001
+          Title: Stratigraphy and sedimentology of Pleistocene and Holocene carbonate eolianites, Kauai, Hawaii, U.S.A.
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: in Abegg, F.E., Harris, P.M., and Loope, D.B., eds., Modern and ancient carbonate eolianites: Sedimentology, sequence stratigraphy, and diagenesis: Society of Exploration Petrologists and Mineralogists (SEPM) Special Publication 71, p. 93–115.
+      Type_of_Source_Media: Printed, Society of Exploration Petrologists and Mineralogists (SEPM) Special Publication
+      Source_Citation_Abbreviation: Blay and Longman, 2001
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Coombs, C.R., Hawke, B.R., and Wilson, L.
+          Publication_Date: 1990
+          Title: Terrestrial analogs to lunar sinuous rilles: Kauhako crater and channel, Kalaupapa, Molokai, and other Hawaiian lava conduit systems
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Proceedings of the 20th Lunar and Planetary Science Conference, v. 20, p. 195–206.
+      Type_of_Source_Media: Printed, Proceedings volume
+      Source_Citation_Abbreviation: Coombs and others, 1990
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kauahikaua, J., Cashman, K.V., Clague, D.A., Champion, D., and Hagstrum, J.T.
+          Publication_Date: 2002
+          Title: Emplacement of the most recent lava flows on Hualalai volcano, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Bulletin of Volcanology, v. 64, p. 229–253.
+      Type_of_Source_Media: Journal article
+      Source_Citation_Abbreviation: Kauahikaua and others, 2002
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Macdonald, G.A.
+          Publication_Date: 1978
+          Title: Geologic map of the crater section of Haleakala National Park, Maui, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: U.S. Geological Survey Miscellaneous Investigations Map I–1088, scale 1:24,000.
+      Type_of_Source_Media: U.S. Geological Survey Miscellaneous Investigations Series Map
+      Source_Citation_Abbreviation: Macdonald, 1978
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Macdonald, G.A., Davis, D.A., and Cox, D.C., 1960
+          Publication_Date: 1960
+          Title: Geology and ground-water resources of the Island of Kauai, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography Bulletin 13, 212 p.
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Macdonald and others, 1960
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T.
+          Publication_Date: 1939
+          Title: Geologic map and guide of the Island of Oahu, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography, Bulletin 2, scale 1:62,500.
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns, 1939
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T.
+          Publication_Date: 1940
+          Title: Geology and ground-water resources of the islands of Lanai and Kahoolawe, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography, Bulletin 6, part 1, p. 1–60.
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns, 1940b
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T.
+          Publication_Date: 1940
+          Title: Geology and ground-water resources of the islands of Lanai and Kahoolawe, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography, Bulletin 6, part 2, p. 117–147
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns, 1940c
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T.
+          Publication_Date: 1947
+          Title: Geology and ground-water resources of the island of Niihau, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography, Bulletin 12, part 1, p. 1–38.
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns, 1947
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T., and Macdonald, G.A.
+          Publication_Date: 1942
+          Title: Geology and ground-water resources of the island of Maui
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography Bulletin 7, 344 p
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns and Macdonald, 1942
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Stearns, H.T., and Macdonald, G.A.
+          Publication_Date: 1947
+          Title: Geology and ground-water resources of the island of Molokai, Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: Hawaii Division of Hydrography Bulletin 11, 113 p.
+      Type_of_Source_Media: Hawaii Division of Hydrography Bulletin
+      Source_Citation_Abbreviation: Stearns and Macdonald, 1947
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wolfe, E.W., and Morris, Jean, 1996a
+          Publication_Date: 1996
+          Title: Geologic map of the Island of Hawaii
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: U.S. Geological Survey Miscellaneous Investigations Series I–2524-A, scale 1:100,000.
+      Type_of_Source_Media: U.S. Geological Survey Miscellaneous Investigations Series Map
+      Source_Citation_Abbreviation: Wolfe and Morris, 1996a
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wolfe, E.W., Wise, W.S., and Dalrymple, G.B., 1997
+          Publication_Date: 1997
+          Title: The geology and petrology of Mauna Kea Volcano, Hawaii—A study of postshield volcanism
+          Series_Information:
+          Publication_Information:
+          Other_Citation_Details: U.S. Geological Survey Professional Paper 1557, 129 p.
+      Type_of_Source_Media: U.S. Geological Survey Professional Paper
+      Source_Citation_Abbreviation: Wolfe and others, 1997
+
+
+[Section 3, Spatial Data Organization information]
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    VPF_Terms_Description:
+      VPF_Point_and_Vector_Object_Type: Edge (Arc)
+      Point_and_Vector_Object_Count: 5612
+    VPF_Terms_Description:
+      VPF_Point_and_Vector_Object_Type: Face (Polygon)
+      Point_and_Vector_Object_Count: 9862
+
+[Section 4, Spatial Reference Information]
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 4
+          Scale_Factor_at_Central_Meridian: 0.9996
+          Origin_Longitude: -159.0
+          Latitude_of_Projection_Origin: 0
+          False_Easting: 500000
+          False_Northing: 0
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American datum of 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257
+
+[Section 5, Entity and attribute information]
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Haw_St_geo_20070426.shp
+      Entity_Type_Definition: Polygon attribute table of geology
+      Entity_Type_Definition_Source: MapInfo translation
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Row number
+      Attribute_Definition_Source: MapInfo
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique positive integers generated automatically
+    Attribute:
+      Attribute_Label: Island
+      Attribute_Definition: Word descriptor for formal name of major island that contains geologic polygon
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 10 or fewer characters for full name of island
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Volcano
+      Attribute_Definition: Word descriptor for abbreviation of shield volcano
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 4-letter abbreviation
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Strat_code
+      Attribute_Definition: Positive integer as numeric descriptor corresponding to stratigraphic group
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: ow, Open water
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 60
+          Enumerated_Domain_Value_Definition: Qcw, Caldera wall rocks, Lava flows and thin tephra deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 101
+          Enumerated_Domain_Value_Definition: Qpc5, Puna Basalt, Spatter or tuff cones, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 102
+          Enumerated_Domain_Value_Definition: Qpc4y, Puna Basalt, Spatter or tuff cones, Age 200-400 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 103
+          Enumerated_Domain_Value_Definition: Qpc4o, Puna Basalt, Spatter or tuff cones, Age 400-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 104
+          Enumerated_Domain_Value_Definition: Qpc3, Puna Basalt, Spatter or tuff cones, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 105
+          Enumerated_Domain_Value_Definition: Qpc2, Puna Basalt, Spatter or tuff cones, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 106
+          Enumerated_Domain_Value_Definition: Qp5, Puna Basalt, Lava flows, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 107
+          Enumerated_Domain_Value_Definition: Qp4, Puna Basalt, Lava flows, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 108
+          Enumerated_Domain_Value_Definition: Qp3, Puna Basalt, Lava flows, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 109
+          Enumerated_Domain_Value_Definition: Qp2, Puna Basalt, Lava flows, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 110
+          Enumerated_Domain_Value_Definition: Qp1y, Puna Basalt, Lava flows, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 111
+          Enumerated_Domain_Value_Definition: Qp1o, Puna Basalt, Lava flows, Age 5000-16000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 112
+          Enumerated_Domain_Value_Definition: Qhi, Hilina Basalt, Lava flows, Age greater than 16000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 113
+          Enumerated_Domain_Value_Definition: Qp4y, Puna Basalt, Lava flows, Age 200-400 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 114
+          Enumerated_Domain_Value_Definition: Qp4o, Puna Basalt, Lava flows, Age 400-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 115
+          Enumerated_Domain_Value_Definition: Qpld5, Puna Basalt, Littoral deposits, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 116
+          Enumerated_Domain_Value_Definition: Qpld4o, Puna Basalt, Littoral deposits, Age 400-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 117
+          Enumerated_Domain_Value_Definition: Qpld3, Puna Basalt, Littoral deposits, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 118
+          Enumerated_Domain_Value_Definition: Qpa5, Puna Basalt, Ash, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 119
+          Enumerated_Domain_Value_Definition: Qpa4o, Puna Basalt, Ash, Age 400-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 120
+          Enumerated_Domain_Value_Definition: Qpa2, Puna Basalt, Ash, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 121
+          Enumerated_Domain_Value_Definition: Qpa4y, Puna Basalt, Ash, Age 200-400 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 201
+          Enumerated_Domain_Value_Definition: Qkc5, Kau Basalt, Spatter or tuff cones, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 202
+          Enumerated_Domain_Value_Definition: Qkc4, Kau Basalt, Spatter or tuff cones, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 203
+          Enumerated_Domain_Value_Definition: Qkc3, Kau Basalt, Spatter or tuff cones, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 203
+          Enumerated_Domain_Value_Definition: Qkc3, Kau Basalt, Spatter or tuff cones, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 204
+          Enumerated_Domain_Value_Definition: Qkc2, Kau Basalt, Spatter or tuff cones, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 205
+          Enumerated_Domain_Value_Definition: Qkc1, Kau Basalt, Spatter or tuff cones, Age 3000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 206
+          Enumerated_Domain_Value_Definition: Qkc, Kau Basalt, Spatter or tuff cones, Age greater than 11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 207
+          Enumerated_Domain_Value_Definition: Qkc1y, Kau Basalt, Spatter or tuff cones, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 208
+          Enumerated_Domain_Value_Definition: Qkc1o, Kau Basalt, Spatter or tuff cones, Age 5000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 209
+          Enumerated_Domain_Value_Definition: Qk5, Kau Basalt, Lava flows, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 210
+          Enumerated_Domain_Value_Definition: Qk4, Kau Basalt, Lava flows, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 211
+          Enumerated_Domain_Value_Definition: Qk3, Kau Basalt, Lava flows, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 212
+          Enumerated_Domain_Value_Definition: Qk2, Kau Basalt, Lava flows, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 213
+          Enumerated_Domain_Value_Definition: Qk1, Kau Basalt, Lava flows, Age 3000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 214
+          Enumerated_Domain_Value_Definition: Qk, Kau Basalt, Lava flows, Age greater than 11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 215
+          Enumerated_Domain_Value_Definition: Qkh, Kahuku Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 216
+          Enumerated_Domain_Value_Definition: Qn, Ninole Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 217
+          Enumerated_Domain_Value_Definition: Qk1y, Kau Basalt, Lava flows, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 218
+          Enumerated_Domain_Value_Definition: Qk1o, Kau Basalt, Lava flows, Age 5000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 219
+          Enumerated_Domain_Value_Definition: Qkld5, Kau Basalt, Littoral deposits, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 220
+          Enumerated_Domain_Value_Definition: Qkld4, Kau Basalt, Littoral deposits, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 221
+          Enumerated_Domain_Value_Definition: Qkld3, Kau Basalt, Littoral deposits, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 222
+          Enumerated_Domain_Value_Definition: Qkld2, Kau Basalt, Littoral deposits, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 223
+          Enumerated_Domain_Value_Definition: Qkld1, Kau Basalt, Littoral deposits, Age 3000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 224
+          Enumerated_Domain_Value_Definition: Qka3, Kau Basalt, Ash, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 301
+          Enumerated_Domain_Value_Definition: Qhc5, Hualalai Volcanics, Basalt of Puhiapele, Spatter or tuff cones, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 302
+          Enumerated_Domain_Value_Definition: Qhc4, Hualalai Volcanics, Spatter or tuff cones, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 303
+          Enumerated_Domain_Value_Definition: Qhc3, Hualalai Volcanics, Spatter or tuff cones, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 304
+          Enumerated_Domain_Value_Definition: Qhc2, Hualalai Volcanics, Spatter or tuff cones, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 305
+          Enumerated_Domain_Value_Definition: Qhc1y, Hualalai Volcanics, Spatter or tuff cones, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 306
+          Enumerated_Domain_Value_Definition: Qhc1o, Hualalai Volcanics, Spatter or tuff cones, Age 5000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 307
+          Enumerated_Domain_Value_Definition: Qhc, Hualalai Volcanics, Spatter or tuff cones, Age greater than 11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 308
+          Enumerated_Domain_Value_Definition: Qh5, Hualalai Volcanics, Basalt of Maniniowali, Lava flows, Age 0-200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 309
+          Enumerated_Domain_Value_Definition: Qh4, Hualalai Volcanics, Lava flows, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 310
+          Enumerated_Domain_Value_Definition: Qh3, Hualalai Volcanics, Lava flows, Age 750-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 311
+          Enumerated_Domain_Value_Definition: Qh2, Hualalai Volcanics, Lava flows, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 312
+          Enumerated_Domain_Value_Definition: Qh1y, Hualalai Volcanics, Lava flows, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 313
+          Enumerated_Domain_Value_Definition: Qh1o, Hualalai Volcanics, Lava flows, Age 5000-11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 314
+          Enumerated_Domain_Value_Definition: Qh, Hualalai Volcanics, Lava flows, Age greater than 11000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 315
+          Enumerated_Domain_Value_Definition: Qha4, Hualalai Volcanics, Ash, Age 200-750 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 316
+          Enumerated_Domain_Value_Definition: Qwc, Hualalai Volcanics, Waawaa Trachyte Member, Cinder cone
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 317
+          Enumerated_Domain_Value_Definition: Qw, Hualalai Volcanics, Waawaa Trachyte Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 401
+          Enumerated_Domain_Value_Definition: Qlcy, Laupahoehoe Volcanics, Younger volcanic rocks member, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 402
+          Enumerated_Domain_Value_Definition: Qlc, Laupahoehoe Volcanics, Older volcanic rocks member, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 403
+          Enumerated_Domain_Value_Definition: Qhmc, Hamakua Volcanics, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 404
+          Enumerated_Domain_Value_Definition: Qlbc, Laupahoehoe Volcanics, Older volcanic rocks member, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 405
+          Enumerated_Domain_Value_Definition: Qly, Laupahoehoe Volcanics, Younger volcanic rocks member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 406
+          Enumerated_Domain_Value_Definition: Ql, Laupahoehoe Volcanics, Older volcanic rocks member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 407
+          Enumerated_Domain_Value_Definition: Qhm, Hamakua Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 408
+          Enumerated_Domain_Value_Definition: Qlb, Laupahoehoe Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 409
+          Enumerated_Domain_Value_Definition: Qlay, Laupahoehoe Volcanics, Younger volcanic rocks member, Tephra deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 410
+          Enumerated_Domain_Value_Definition: Qla, Laupahoehoe Volcanics, Older volcanic rocks member, Tephra deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 411
+          Enumerated_Domain_Value_Definition: Qlmt, Laupahoehoe Volcanics, Makanaka Glacial Member, Till
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 412
+          Enumerated_Domain_Value_Definition: Qhmw, Hamakua Volcanics, Waihu Glacial Member, Till and outwash
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 413
+          Enumerated_Domain_Value_Definition: Qlmo, Laupahoehoe Volcanics, Makanaka Glacial Member, Outwash
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 414
+          Enumerated_Domain_Value_Definition: Qhpd, Hamakua Volcanics, Pohakuloa Glacial Member, Till and outwash
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 501
+          Enumerated_Domain_Value_Definition: Qhwc, Hawi Volcanics, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 502
+          Enumerated_Domain_Value_Definition: Qplc, Pololu Volcanics, Scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 503
+          Enumerated_Domain_Value_Definition: Qhwbc, Hawi Volcanics, Benmoreite scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 504
+          Enumerated_Domain_Value_Definition: Qplmc, Pololu Volcanics, Mugearite scoria cones
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 505
+          Enumerated_Domain_Value_Definition: Qhwd, Hawi Volcanics, Lava domes
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 506
+          Enumerated_Domain_Value_Definition: Qpld, Pololu Volcanics, Lava dome
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 507
+          Enumerated_Domain_Value_Definition: Qhwbd, Hawi Volcanics, Benmoreite lava dome
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 508
+          Enumerated_Domain_Value_Definition: Qhwtd, Hawi Volcanics, Trachytic lava dome
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 509
+          Enumerated_Domain_Value_Definition: Qhw, Hawi Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 510
+          Enumerated_Domain_Value_Definition: Qpl, Pololu Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 511
+          Enumerated_Domain_Value_Definition: Qhwb, Hawi Volcanics, Benmoreite lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 512
+          Enumerated_Domain_Value_Definition: Qplm, Pololu Volcanics, Mugearite lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 513
+          Enumerated_Domain_Value_Definition: Qhwt, Hawi Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 514
+          Enumerated_Domain_Value_Definition: Qhwa, Hawi Volcanics, Tephra deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 601
+          Enumerated_Domain_Value_Definition: Qt, Tephra deposits, Dunes downwind of Lehua Island cone
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 701
+          Enumerated_Domain_Value_Definition: Qf, Fill, Manmade fill
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 702
+          Enumerated_Domain_Value_Definition: Qls, Landslide deposits, Landslide deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 703
+          Enumerated_Domain_Value_Definition: Qa, Alluvium, Sand and gravel
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 705
+          Enumerated_Domain_Value_Definition: Qsd, Slope deposits, Alluvium and colluvium
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 707
+          Enumerated_Domain_Value_Definition: Qtc, Talus and colluvium, Sand and gravel
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 708
+          Enumerated_Domain_Value_Definition: Qld, Lacustrine deposits, Calcareous silt and fine-grained sand
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 710
+          Enumerated_Domain_Value_Definition: Qbd, Beach deposits, Sand and gravel
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 711
+          Enumerated_Domain_Value_Definition: Qdy, Younger dune deposits, Sand dunes
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 712
+          Enumerated_Domain_Value_Definition: Qlg, Lagoon deposits, Silt sand and marl
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 713
+          Enumerated_Domain_Value_Definition: QTao, Older alluvium, Sand and gravel
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 713
+          Enumerated_Domain_Value_Definition: QTao, Older alluvium, Sand and gravel partly lithified
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 714
+          Enumerated_Domain_Value_Definition: Qdo, Older dune deposits, Sand dunes
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 715
+          Enumerated_Domain_Value_Definition: Qcrs, Lagoon and reef deposits, Limestone and mudstone
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 716
+          Enumerated_Domain_Value_Definition: Qcbc, Marine conglomerate and breccia, Fossiliferous breccia
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1111
+          Enumerated_Domain_Value_Definition: Qmnl, Honomanu Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1211
+          Enumerated_Domain_Value_Definition: Qkul, Kula Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1212
+          Enumerated_Domain_Value_Definition: Qkuv, Kula Volcanics, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1214
+          Enumerated_Domain_Value_Definition: Qkuk, Kula Volcanics, Kumuiliahi member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1215
+          Enumerated_Domain_Value_Definition: Qkuv?, Kula Volcanics, Vent deposits (query)
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1216
+          Enumerated_Domain_Value_Definition: Qkuv?, Kula Volcanics, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1217
+          Enumerated_Domain_Value_Definition: Qkul?, Kula Volcanics, Basanite from 9100-ft vents, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1218
+          Enumerated_Domain_Value_Definition: Qkuls, Kula Volcanics, Ankaramite of Summit House, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1219
+          Enumerated_Domain_Value_Definition: Qkui, Kula Volcanics, Intrusive plugs
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1301
+          Enumerated_Domain_Value_Definition: Qkamd, Kaupo Mud Flow, Debris-avalanche deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1302
+          Enumerated_Domain_Value_Definition: Qkamc, Kaupo Mud Flow, Conglomerate and sandstone
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1401
+          Enumerated_Domain_Value_Definition: Qhn6, Hana Volcanics, Basanite of Ka Luu o ka Oo, Lava flows, Age 0-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1402
+          Enumerated_Domain_Value_Definition: Qhnv6, Hana Volcanics, Basanite of Hanamanioa, vent, Cinder and spatter, Age 0-1500 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1451
+          Enumerated_Domain_Value_Definition: Qhn5, Hana Volcanics, Basanite of Sliding Sands trai, Lava flows, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1452
+          Enumerated_Domain_Value_Definition: Qhnv5, Hana Volcanics, Basanite of Pimoe cone, Cinder and spatter, Age 1500-3000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1501
+          Enumerated_Domain_Value_Definition: Qhn4, Hana Volcanics, Basanite of Puu Maile, Lava flows, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1502
+          Enumerated_Domain_Value_Definition: Qhnv4, Hana Volcanics, Basanite of Puu Maile, Cinder and spatter, Age 3000-5000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1551
+          Enumerated_Domain_Value_Definition: Qhn3, Hana Volcanics, Basanite of Waiohuli makai, Lava flows, Age 5000-13000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1552
+          Enumerated_Domain_Value_Definition: Qhnv3, Hana Volcanics, Basanite of Mauna Hina, Cinder and spatter, Age 5000-13000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1601
+          Enumerated_Domain_Value_Definition: Qhn2, Hana Volcanics, Lava flows, Age 13000-30000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1602
+          Enumerated_Domain_Value_Definition: Qhnv2, Hana Volcanics, Puu Olai cone, Cinder and spatter, Age 13000-30000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1651
+          Enumerated_Domain_Value_Definition: Qhn1, Hana Volcanics, Basanite of Ohia Stream, Lava flows, Age 30000-50000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1652
+          Enumerated_Domain_Value_Definition: Qhnv2, Hana Volcanics, Basanite of 5635-ft cone, Cinder spatter and agglutinate, Age 30000-50000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1701
+          Enumerated_Domain_Value_Definition: Qhn0, Hana Volcanics, Lava flows, Age 50000-140000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1702
+          Enumerated_Domain_Value_Definition: Qhn0v, Hana Volcanics, Ankaramite of Kolekole, Cinder and spatter, Age 50000-140000 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1902
+          Enumerated_Domain_Value_Definition: Qhnv, Hana Volcanics, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1903
+          Enumerated_Domain_Value_Definition: Qhne, Hana Volcanics, Explosion crater deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1911
+          Enumerated_Domain_Value_Definition: Qhnt, Hana Volcanics, Tephra poorly to nonindurated
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1919
+          Enumerated_Domain_Value_Definition: Qhni, Hana Volcanics, Basanite of Halalii cone, intrusion
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2101
+          Enumerated_Domain_Value_Definition: QTwl, Wailuku Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2102
+          Enumerated_Domain_Value_Definition: QTwv, Wailuku Volcanics, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2104
+          Enumerated_Domain_Value_Definition: QTwpc, Wailuku Volcanics, Pit crater
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2105
+          Enumerated_Domain_Value_Definition: QTwlc, Wailuku Volcanics, Near-vent lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2107
+          Enumerated_Domain_Value_Definition: QTwdc, Wailuku Volcanics, Dike complex
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2108
+          Enumerated_Domain_Value_Definition: QTwcc, Wailuku Volcanics, Caldera complex
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2109
+          Enumerated_Domain_Value_Definition: QTwi, Wailuku Volcanics, Intrusive rocks
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2201
+          Enumerated_Domain_Value_Definition: Qul, Honolua Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2202
+          Enumerated_Domain_Value_Definition: Quv, Honolua Volcanics, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2203
+          Enumerated_Domain_Value_Definition: Qud, Honolua Volcanics, Bulbous dome of massive lava
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2401
+          Enumerated_Domain_Value_Definition: Qlhl, Lahaina Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2402
+          Enumerated_Domain_Value_Definition: Qlhv, Lahaina Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3101
+          Enumerated_Domain_Value_Definition: Qyvk, Young volcanic rocks of Kahoolawe, Lava flows and cinder deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3111
+          Enumerated_Domain_Value_Definition: Qnpl, Kanapou Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3112
+          Enumerated_Domain_Value_Definition: Qnpv, Kanapou Volcanics, Cinder spatter and lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3113
+          Enumerated_Domain_Value_Definition: Qnpcl, Kanapou Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3114
+          Enumerated_Domain_Value_Definition: Qnpct, Kanapou Volcanics, Indurated fallout tephra
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3115
+          Enumerated_Domain_Value_Definition: Qnppl, Kanapou Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3116
+          Enumerated_Domain_Value_Definition: Qnppv, Kanapou Volcanics, Lava flows cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3201
+          Enumerated_Domain_Value_Definition: Qll, Lanai Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3202
+          Enumerated_Domain_Value_Definition: Qlv, Lanai Basalt, Cinder and spatter
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3203
+          Enumerated_Domain_Value_Definition: Qlcr, Lanai Basalt, Pit craters from which little lava issue
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3204
+          Enumerated_Domain_Value_Definition: Qlbr, Lanai Basalt, Breccia filling eroded pit craters
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3301
+          Enumerated_Domain_Value_Definition: Qemul, East Molokai Volcanics, Upper member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3302
+          Enumerated_Domain_Value_Definition: Qemuv, East Molokai Volcanics, Upper member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3303
+          Enumerated_Domain_Value_Definition: Qemud, East Molokai Volcanics, Upper member, Domes
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3305
+          Enumerated_Domain_Value_Definition: Qemuv?, East Molokai Volcanics, Upper member, Vent deposits (query)
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3305
+          Enumerated_Domain_Value_Definition: Qemuv?, East Molokai Volcanics, Upper member, Vent deposits (query)
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3321
+          Enumerated_Domain_Value_Definition: QTemll, East Molokai Volcanics, Lower member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3322
+          Enumerated_Domain_Value_Definition: QTemlv, East Molokai Volcanics, Lower member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3323
+          Enumerated_Domain_Value_Definition: QTemlcc, East Molokai Volcanics, Lower member, Caldera complex
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3351
+          Enumerated_Domain_Value_Definition: Qppl, Kalaupapa Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3352
+          Enumerated_Domain_Value_Definition: Qppv, Kalaupapa Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3353
+          Enumerated_Domain_Value_Definition: Qmv, Tuff of Mokuhooniki cone, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3401
+          Enumerated_Domain_Value_Definition: QTwml, West Molokai Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3402
+          Enumerated_Domain_Value_Definition: QTwmv, West Molokai Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3403
+          Enumerated_Domain_Value_Definition: QTwmw, West Molokai Volcanics, Waiele and other late lava, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3404
+          Enumerated_Domain_Value_Definition: QTwmwv, West Molokai Volcanics, Waiele and other late lava, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4101
+          Enumerated_Domain_Value_Definition: Tapl, Waianae Volcanics, Palehua member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4102
+          Enumerated_Domain_Value_Definition: Tapv, Waianae Volcanics, Palehua member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4121
+          Enumerated_Domain_Value_Definition: Takl, Waianae Volcanics, Kamaileunu member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4122
+          Enumerated_Domain_Value_Definition: Takv, Waianae Volcanics, Kamaileunu member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4131
+          Enumerated_Domain_Value_Definition: Takbr, Waianae Volcanics, Kamaileunu member, Talus breccia
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4141
+          Enumerated_Domain_Value_Definition: Takmk, Waianae Volcanics, Kamaileunu member, Mauna Kuwale rhyodacite
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4151
+          Enumerated_Domain_Value_Definition: Takil, Waianae Volcanics, Kamaileunu member, Icelandite lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4152
+          Enumerated_Domain_Value_Definition: Takiv, Waianae Volcanics, Kamaileunu member, Icelandite vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4161
+          Enumerated_Domain_Value_Definition: Tall, Waianae Volcanics, Lualualei member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4162
+          Enumerated_Domain_Value_Definition: Talv, Waianae Volcanics, Lualualei member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4171
+          Enumerated_Domain_Value_Definition: Talel, Kolekole Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4172
+          Enumerated_Domain_Value_Definition: Talev, Kolekole Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4173
+          Enumerated_Domain_Value_Definition: Talec, Kolekole Volcanics, Conglomerate
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4401
+          Enumerated_Domain_Value_Definition: QTkl, Koolau Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4421
+          Enumerated_Domain_Value_Definition: QTkdc, Koolau Basalt, Dike complex, Closely spaced dikes and wallrock
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4431
+          Enumerated_Domain_Value_Definition: Tkbr, Koolau Basalt, Breccia deposits, Breccia deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4441
+          Enumerated_Domain_Value_Definition: QTkkl, Koolau Basalt, Kailua member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4451
+          Enumerated_Domain_Value_Definition: QTkkdc, Koolau Basalt, Kailua member, Dike complex
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4601
+          Enumerated_Domain_Value_Definition: Qol, Honolulu Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4602
+          Enumerated_Domain_Value_Definition: Qov, Honolulu Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4603
+          Enumerated_Domain_Value_Definition: Qot, Honolulu Volcanics, Tuff
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4611
+          Enumerated_Domain_Value_Definition: Qotl, Honolulu Volcanics, Tantalus member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4612
+          Enumerated_Domain_Value_Definition: Qott, Honolulu Volcanics, Tantalus vent, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4621
+          Enumerated_Domain_Value_Definition: Qokl, Honolulu Volcanics, Tantalus member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4622
+          Enumerated_Domain_Value_Definition: Qokt, Honolulu Volcanics, Koko member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4623
+          Enumerated_Domain_Value_Definition: Qoks, Honolulu Volcanics, Koko member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4630
+          Enumerated_Domain_Value_Definition: Qobr, Honolulu Volcanics, Breccia deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5101
+          Enumerated_Domain_Value_Definition: Twml, Waimea Canyon Basalt, Makaweli Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5102
+          Enumerated_Domain_Value_Definition: Twmv, Waimea Canyon Basalt, Makaweli Member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5111
+          Enumerated_Domain_Value_Definition: Twmm, Waimea Canyon Basalt, Makaweli Member, Mokuone Breccia Beds
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5121
+          Enumerated_Domain_Value_Definition: Twhl, Waimea Canyon Basalt, Haupu Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5123
+          Enumerated_Domain_Value_Definition: Twhb, Waimea Canyon Basalt, Haupu Member, Breccia
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5131
+          Enumerated_Domain_Value_Definition: Twol, Waimea Canyon Basalt, Olokele Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5132
+          Enumerated_Domain_Value_Definition: Twov, Waimea Canyon Basalt, Olokele Member, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5133
+          Enumerated_Domain_Value_Definition: Twob, Waimea Canyon Basalt, Olokele Member, Breccia
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5141
+          Enumerated_Domain_Value_Definition: Twnl, Waimea Canyon Basalt, Napali Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5142
+          Enumerated_Domain_Value_Definition: Twnv, Waimea Canyon Basalt, Napili Member, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5401
+          Enumerated_Domain_Value_Definition: QTkol, Koloa Volcanics, Pahoehoe and aa
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5402
+          Enumerated_Domain_Value_Definition: QTkov, Koloa Volcanics, Vent deposits
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5403
+          Enumerated_Domain_Value_Definition: QTkot, Koloa Volcanics, Tuff
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5404
+          Enumerated_Domain_Value_Definition: QTkoa, Koloa Volcanics, Ash
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5405
+          Enumerated_Domain_Value_Definition: QTkol?, Koloa Volcanics, Lava flows (query)
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5480
+          Enumerated_Domain_Value_Definition: QTkop, Koloa Volcanics, Palikea Breccia member, Conglomerate
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5481
+          Enumerated_Domain_Value_Definition: QTkop?, Koloa Volcanics, Palikea Breccia member, Breccia and conglomerate
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5499
+          Enumerated_Domain_Value_Definition: QTkoi, Koloa Volcanics, Intrusive rocks
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5801
+          Enumerated_Domain_Value_Definition: Tpl, Paniau Basalt, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5809
+          Enumerated_Domain_Value_Definition: Tpi, Paniau Basalt, Shallow intrusive plug
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5851
+          Enumerated_Domain_Value_Definition: QTekl, Kiekie Volcanics, Lava flows
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5852
+          Enumerated_Domain_Value_Definition: QTekv, Kiekie Volcanics, Coarse near-vent fallout
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5853
+          Enumerated_Domain_Value_Definition: QTekt, Kiekie Volcanics, Tuff
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Unit_symbol
+      Attribute_Definition: 10 or fewer characters forming mnemonic letter code for labeling geologic map units
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alphanumeric text string with 1-to-1 correspondence to Attribute_Label Strat_code defined and enumerated separately previously in this metadata document
+          Enumerated_Domain_Value_Definition: Character string derived from age and stratigraphic name of geologic units including query (?) for some labels to indicate uncertain age assignment of geologic unit
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Age_group
+      Attribute_Definition: Nonnegative integer coded as time interval for emplacement of stratigraphic unit
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: Sedimentary deposits, age not precisely constrained
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: 0-200 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: 200-750 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: 750-1,500 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: 1,500-3,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: 3,000-5,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: 5,000-11,00 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: 11,000-30,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: 30,000-50,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: 50,000-140,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition:140,000-780,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: 780,000-950,000 yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 12
+          Enumerated_Domain_Value_Definition: 0.95-2.0 million yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 13
+          Enumerated_Domain_Value_Definition: 2-4 million yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 14
+          Enumerated_Domain_Value_Definition: 4-6 million yr in age
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Age_range
+      Attribute_Definition: 30 or fewer characters describing time interval of emplacement
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:
+          Enumerated_Domain_Value_Definition: Text string providing age limit derived from radiometric data for older eruptions or known calendar age for eruptions of past 200 yr
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Formation_name
+      Attribute_Definition: 80 or fewer characters giving stratigraphic formational name
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Text string with 1-to-1 correspondence to Attribute_Label Strat_code defined and enumerated separately previously in this metadata document
+          Enumerated_Domain_Value_Definition: Random-length character string showing formal or informal stratigraphic name, with formal names referable to Geologic Names Lexicon of National Geologic Map Database, http://ngmdb.usgs.gov/Geolex/geolex_home.html
+          Enumerated_Domain_Value_Definition_Source: Geolex Web site for formal names; author for informal names
+    Attribute:
+      Attribute_Label: Member_name
+      Attribute_Definition: 30 or fewer characters giving stratigraphic formational name of member rank where needed to fully distinguish geologic unit
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Text string that demarcates formal or informal member names of for Stratigraphic formations
+          Enumerated_Domain_Value_Definition: Random-length character string showing formal or informal stratigraphic name, with formal names referable to Geologic Names Lexicon of National Geologic Map Database, http://ngmdb.usgs.gov/Geolex/geolex_home.html
+          Enumerated_Domain_Value_Definition_Source: Geolex Web site for formal names; author for informal names
+    Attribute:
+      Attribute_Label: Stearns_unit
+      Attribute_Definition: 10 or fewer characters as mnemonic code used on some previously published geologic reference maps for labeling geologic map units
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alphanumeric text string
+          Enumerated_Domain_Value_Definition: Character string derived from age and stratigraphic name of geologic units including query (?) for some to indicate uncertainty
+          Enumerated_Domain_Value_Definition_Source: Geologic map publication cited in base note on map sheet for each island
+    Attribute:
+      Attribute_Label: Rock_type
+      Attribute_Definition: 40 or fewer characters giving generalized name that defines nature of rocks or deposits that form stratigraphic unit
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Text string
+          Enumerated_Domain_Value_Definition: Compiled in accompanying table
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Lithology
+      Attribute_Definition: 50 or fewer characters giving specific additional information about type of lava flows, grain size of clastic rocks, or origin of some tephra deposits
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Text string
+          Enumerated_Domain_Value_Definition: Compiled in accompanying table
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Volc_stage
+      Attribute_Definition: 7 or fewer characters assigning volcanic units to one of three common growth stages in idealized model of oceanic volcanic evolution, namely shield, postshield, or rejuvenated stage, with additional terms for alluvium or open water
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: shield
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: postsh
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: rejuv
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: alluv
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: water
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Composition
+      Attribute_Definition: 40 or fewer characters Assigning volcanic units to petrologic classification most closely matching whole-rock chemical composition of stratigraphic formation or individual units contained within
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Freeform text string
+          Enumerated_Domain_Value_Definition: Compiled in accompanying table
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Data_source
+      Attribute_Definition: 40 or fewer characters assigning to each polygon either a previously published referable document or the person responsible for new mapping
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Blay and Longman, 2001
+          Enumerated_Domain_Value_Definition: Blay and Longman, 2001
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coombs and others, 1990
+          Enumerated_Domain_Value_Definition: Coombs and others, 1990
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Powers_1942
+          Enumerated_Domain_Value_Definition:H.A. Powers, in Stearns and Macdonald, 1942, p. 79, figure 11, Island of Maui
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HVO_2004
+          Enumerated_Domain_Value_Definition:Hawaiian Volcano Observatory, unpublished data current as of December 2004, courtesy of C.C. Heliker.
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kauahikaua and others, 2002
+          Enumerated_Domain_Value_Definition: Kauahikaua and others, 2002, p. 230, figure 1, provided as GIS file from J.P. Kauahikaua
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald and others, 1960
+          Enumerated_Domain_Value_Definition:Macdonald and others, 1960, plate 1, Island of Kauai
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald and others, 1960, p. 53
+          Enumerated_Domain_Value_Definition: Macdonald and others, 1960, page 53
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald and others, 1960, p. 76
+          Enumerated_Domain_Value_Definition: Macdonald and others, 1960, page 76
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald, 1978
+          Enumerated_Domain_Value_Definition: Macdonald, 1978, scale 1:24,000
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Neal and Sherrod_2004
+          Enumerated_Domain_Value_Definition: C.A. Neal and D.R. Sherrod, previously unpublished data, Kilauea volcano, Island of Hawaii
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sherrod_2004a
+          Enumerated_Domain_Value_Definition: D.R. Sherrod, previously unpublished data, Haleakala volcano, Island of Maui
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sherrod_2004b
+          Enumerated_Domain_Value_Definition: D.R. Sherrod, previously unpublished data, Kilauea volcano, Island of Hawaii
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sherrod_2004c
+          Enumerated_Domain_Value_Definition: D.R. Sherrod, unpublished mapping at Kanapou Bay, Island of Kahooolawe
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sinton_2004
+          Enumerated_Domain_Value_Definition:J.M. Sinton, previously unpublished data provided 2004, Waianae volcano, Island of Oahu
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sinton_2006
+          Enumerated_Domain_Value_Definition:J.M. Sinton, previously unpublished data provided 2006, Waianae volcano, Island of Oahu
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1939
+          Enumerated_Domain_Value_Definition:Stearns, 1939, plate 1, Island of Oahu
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1940b
+          Enumerated_Domain_Value_Definition: Stearns, 1940b, plate 1, Island of Lanai
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1940c
+          Enumerated_Domain_Value_Definition: Stearns, 1940c, p. 120, figure 25 and unpublished geologic map at scale 1:62,500, Island of Kahoolawe
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1942
+          Enumerated_Domain_Value_Definition:Stearns and Macdonald, 1942, plate 1, Island of Maui
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1947a
+          Enumerated_Domain_Value_Definition: Stearns, 1947, plate 1, Island of Niihau
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1947
+          Enumerated_Domain_Value_Definition: Stearns and Macdonald, 1947, plate 1, Island of Molokai
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1947, fig. 18
+          Enumerated_Domain_Value_Definition: Stearns and Macdonald, 1947, p. 106, figure 18
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Swanson_2005
+          Enumerated_Domain_Value_Definition: Age determination by D.A. Swanson on basis of detailed tephra stratigraphic studies for lava-flow units shown by Wolfe and Morris, 1996.
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Watkins_2004
+          Enumerated_Domain_Value_Definition: S.E. Watkins, 2004, this map, polygons created on Island of Molokai to fill gap created by difference between 1924 coastline and 1980 coastline owing to progradation of alluvial deposits; and polygons created on Island of Oahu to account for manmade fill at Kaneohe Bay.
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Wolfe and Morris, 1996a
+          Enumerated_Domain_Value_Definition: Wolfe and Morris, 1996a, plates 1, 2, and 3, scale 1:100,000
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Wolfe and others, 1997
+          Enumerated_Domain_Value_Definition: Wolfe and others, 1997
+          Enumerated_Domain_Value_Definition_Source: Author
+    Entity_Type:
+      Entity_Type_Label: Haw_St_faults_20070426.shp
+      Entity_Type_Definition: Arc attribute table of structure
+      Entity_Type_Definition_Source: MapInfo translation
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Row number
+      Attribute_Definition_Source: MapInfo
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique positive integers generated automatically
+    Attribute:
+      Attribute_Label: Island
+      Attribute_Definition: Word descriptor for formal name of major island that contains structural arc
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 10 or fewer characters for full name of island
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Volcano
+      Attribute_Definition: Word descriptor for abbreviation of shield volcano
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 4-letter abbreviation
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Line_code
+      Attribute_Definition: Positive integer as numeric descriptor corresponding to fault characteristic
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 21
+          Enumerated_Domain_Value_Definition: Normal fault, well located; fault exposed or displaced stratigraphic units sufficiently close that position has been determined by field work to within 50 m on the ground (0.5 mm at 1:100,000 scale)
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 22
+          Enumerated_Domain_Value_Definition: Normal fault, approximately located; ground surface morphology sufficiently distinct that fault may be traced as escarpment on air photos or topographic map with confidence that position lies within 50 m on the ground (0.5 mm at 1:100,000 scale)
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 23
+          Enumerated_Domain_Value_Definition: Normal fault, inferred; geologic relations or ground surface morphology suggest fault present but not exposed and too uncertain to determine position closer than 100 m with confidence (1 mm at 1:100,000 scale)
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 24
+          Enumerated_Domain_Value_Definition: Normal fault, concealed; trace of fault concealed by younger stratigraphic unit; positional accuracy uncertain but within 1 mm at 1:100,000 (100 m on the ground) and commonly within 0.5 mm (50 m on the ground)
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 25
+          Enumerated_Domain_Value_Definition: Normal fault, flooded; trace of fault beneath sea surface; positional accuracy indeterminate
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 26
+          Enumerated_Domain_Value_Definition: Normal fault, queried; trace becomes largely uncertain because stratigraphic relations possibly explained by other causes such as depositional cutout
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Description
+      Attribute_Definition: Short word phrase summarizing structural type, with one-to-one correspondence to Line_code definitions
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 50 or fewer characters comprising known words
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Caldera_relation
+      Attribute_Definition: Short word “Yes” indicating fault is one of several, possibly nested, faults that define circular or ovaline caldera subsidence structure; otherwise blank
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 10 or fewer characters as word “Yes”; otherwise blank
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Caldera_name
+      Attribute_Definition: Name of 15 characters or fewer for geographic caldera associated with “Caldera_relation” faults
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: East Molokai
+          Enumerated_Domain_Value_Definition: Main caldera in East Molokai Volcanics, East Molokai volcano
+          Enumerated_Domain_Value_Definition_Source: Stearns and Macdonald, 1947
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kahoolawe
+          Enumerated_Domain_Value_Definition: Main caldera in Kanapou Volcanics, Kahoolawe volcano
+          Enumerated_Domain_Value_Definition_Source: Stearns, 1940c
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Kilauea
+          Enumerated_Domain_Value_Definition: Main caldera in Puna Basalt, Kilauea volcano
+          Enumerated_Domain_Value_Definition_Source: Stearns, 1940c
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Mokuaweoweo
+          Enumerated_Domain_Value_Definition: Main caldera in Kau Basalt, Mauna Loa volcano
+          Enumerated_Domain_Value_Definition_Source: Macdonald, 1984
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Olokele
+          Enumerated_Domain_Value_Definition: Main caldera in Waimea Canyon Basalt, Kauai volcano
+          Enumerated_Domain_Value_Definition_Source: Macdonald and others, 1960
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Wainae
+          Enumerated_Domain_Value_Definition: Main caldera in Waianae Volcanics, Waianae volcano
+          Enumerated_Domain_Value_Definition_Source: Sinton, 2004
+        Enumerated_Domain:
+          Enumerated_Domain_Value: West Maui
+          Enumerated_Domain_Value_Definition: Main caldera in Wailuku Basalt, West Maui volcano
+          Enumerated_Domain_Value_Definition_Source: Stearns and Macdonald, 1942
+    Attribute:
+      Attribute_Label: Data_source
+      Attribute_Definition: 40 or fewer characters assigning to each arc (fault) either a previously published referable document or the person responsible for new mapping
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald and others, 1960
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Neal and Sherrod_2004
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sherrod_2004a
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sinton_2004
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1942
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1947
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1940b
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1940c
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Wolfe and Morris, 1996a
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+
+    Entity_Type:
+      Entity_Type_Label: Haw_St_ash_20070426.shp
+      Entity_Type_Definition: Arc attribute table of thin ash beds
+      Entity_Type_Definition_Source: MapInfo translation
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Row number
+      Attribute_Definition_Source: MapInfo
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique positive integers generated automatically
+    Attribute:
+      Attribute_Label: Island
+      Attribute_Definition: Word descriptor for formal name of major island that contains structural arc
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 10 or fewer characters for full name of island
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Volcano
+      Attribute_Definition: Word descriptor for abbreviation of shield volcano
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: text string
+          Enumerated_Domain_Value_Definition: 4-letter abbreviation
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Strat_code
+      Attribute_Definition: Positive integer as numeric descriptor corresponding to stratigraphic group
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2103
+          Enumerated_Domain_Value_Definition: QTwt, Tuff of Wailuku Basalt, Stearns_unit Twf
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2106
+          Enumerated_Domain_Value_Definition: QTwp, phreatic explosion debris of Wailuku Basalt, Stearns_unit Twp
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4411
+          Enumerated_Domain_Value_Definition: QTkt, vitric tuff of Koolau Basalt, Stearns_unit Tkt
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5103
+          Enumerated_Domain_Value_Definition: Twma, ash of Makaweli Member of Waimea Canyon Basalt, Stearns_unit Twma
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5111
+          Enumerated_Domain_Value_Definition: Twmm, Mokuone Breccia Beds of Makaweli Member of Waimea Canyon Basalt, Stearns_unit Twmm
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5404
+          Enumerated_Domain_Value_Definition: QTkoa, ash of Koloa Volcanics, Stearns_unit Qka
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5480
+          Enumerated_Domain_Value_Definition: QTkop, conglomerate of Palikea Member of Koloa Volcanics, Stearns_unit Qkp
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Unit_symbol
+      Attribute_Definition: 10 or fewer characters forming mnemonic letter code for labeling geologic map units
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alphanumeric text string with one-to-one correspondence to Attribute_Label Strat_code defined and enumerated separately previously in this metadata document
+          Enumerated_Domain_Value_Definition: Character string derived from age and stratigraphic name of geologic units
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Label: Stearns_unit
+      Attribute_Definition: 10 or fewer characters as mnemonic code used on some previously published geologic reference maps for labeling geologic map units, with one-to-one correspondence to Attribute_Label Strat_code defined and enumerated previously in this metadata document
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Alphanumeric text string
+          Enumerated_Domain_Value_Definition: Character string derived from age and stratigraphic name of geologic units
+          Enumerated_Domain_Value_Definition_Source: Geologic map publication cited in base note on map sheet for each island
+    Attribute:
+      Attribute_Label: Volc_stage
+      Attribute_Definition: 7 or fewer characters assigning volcanic units to one of three common growth stages in idealized model of oceanic volcanic evolution, namely shield, postshield, or rejuvenated stage, though no postshield ash beds were mapped by previous authors
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: shield
+          Enumerated_Domain_Value_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Character text string
+          Enumerated_Domain_Value_Definition: rejuv
+          Enumerated_Domain_Value_Definition_Source: Author
+    Attribute:
+      Attribute_Label: Data_source
+      Attribute_Definition: 40 or fewer characters assigning to each arc (fault) either a previously published referable document or the person responsible for new mapping
+      Attribute_Definition_Source: Author
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Macdonald and others, 1960
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns and Macdonald, 1942
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stearns, 1939
+          Enumerated_Domain_Value_Definition: Abbreviation for Source_citation defined elsewhere in metadata and in References Cited of explanatory pamphlet
+          Enumerated_Domain_Value_Definition_Source: Author
+
+
+[Section 6, Distribution Information]
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: USGS Information Services
+      Contact_Position: GIS Planning Program Manager
+      Contact_Address:
+        Address_Type: mailing address
+        Address: P.O. Box 25286
+        Address: Denver Federal Center
+        City: Denver
+        State_or_Province: CO
+        Postal_Code: 80225-0046
+        Country: USA
+      Contact_Voice_Telephone: (303) 202-4200
+      Contact_Voice_Telephone: (888) ASK-USGS
+      Contact_Facsimile_Telephone: (303) 202-4695
+      Contact_Electronic_Mail_Address: infoservices@usgs.gov
+      Hours_of_Service: 7:45 a.m. to 4:30 p.m.
+  Resource_Description: U.S. Geological Survey Open-File Report Series 2007-1089
+  Distribution_Liability: This database has been approved for release and publication by the Director of the U.S. Geological Survey (USGS).  Although this database has been subjected to some review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review.  Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use.  Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+  Standard_Order_Process:
+    Digital_Form: TAB
+      Digital_Transfer_Information:
+        Format_Name:
+        Format_Version_Number: MapInfo version 7.0
+        Format_Information_Content: Four MapInfo native coverages (TAB files) and export-format (.e00 and shp) files convertible to ArcInfo coverages, and related geologic-map descriptive data and files for generating plots.
+        File_Decompression_Technique: Winzip
+        Transfer_Size: ####
+    Digital_Form: ARCE
+      Digital_Transfer_Information:
+        Format_Name: e00
+        Format_Version_Number: MapInfo version 7.0
+        Format_Information_Content: Four export-format (.e00 shp) files convertible to ArcInfo coverages, and related geologic-map descriptive data and files for generating plots.
+        File_Decompression_Technique: Winzip
+        Transfer_Size: ####
+    Digital_Form: ARC SHP
+      Digital_Transfer_Information:
+        Format_Name: shp file
+        Format_Version_Number: MapInfo version 7.0
+        Format_Information_Content: Four export-format (.shp) files convertible to ArcInfo coverages, and related geologic-map descriptive data and files for generating plots.
+        File_Decompression_Technique: Winzip
+        Transfer_Size: ####
+      Digital_Transfer_Information:
+        Format_Name: PDF
+        Format_Version_Number: Adobe Acrobat 5.0
+        Format_Information_Content: Images of the geologic map sheet produced using this digital database and explanatory information.
+        File_Decompression_Technique: Winzip
+        Transfer_Size: ####
+      Digital_Transfer_Information:
+        Format_Name: ASCII text files
+        Format_Information_Content: Readme and metadata files and PostScript plot files
+        File_Decompression_Technique: Winzip
+        Transfer_Size: ####
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://pubs.usgs.gov/of/2007/1089/
+        Offline_Option:
+          Offline_Media: CD-ROM
+    Fees: No fees for digital files
+
+[Section 7, Metadata Reference Information]
+
+Metadata_Reference_Information:
+  Metadata_Date: 20070426
+  Metadata_Review_Date:  ########
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: David R. Sherrod
+        Contact_Organization: U.S. Geological Survey Volcano Hazards Team
+      Contact_Position: Geologist
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1300 SE Cardinal Court
+        City: Vancouver
+        State_or_Province: WA
+        Postal_Code: 98683
+        Country: USA
+      Contact_Voice_Telephone: (360) 993-8900
+      Contact_Facsimile_Telephone: (360) 993-8980
+      Contact_Electronic_Mail_Address: dsherrod@usgs.gov
+      Hours_of_Service: Typically M-F 07:00 AM - 5:00 PM PST or PDT
+      Contact_Instructions: Preferred contact by any method
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: Content Standard for Geospatial Metadata, Version 1.0, 6/8/94
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+
+

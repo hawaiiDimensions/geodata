@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>TRACK</name>
+  <Placemark>
+	<name>0</name>
+	<description></description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#TRACK">
+		<SimpleData name="type">TRACK</SimpleData>
+		<SimpleData name="ident">T1</SimpleData>
+		<SimpleData name="Latitude">20.80265696</SimpleData>
+		<SimpleData name="Longitude">-156.25668415</SimpleData>
+		<SimpleData name="y_proj">2303731.63563290</SimpleData>
+		<SimpleData name="x_proj">160957.85597488</SimpleData>
+		<SimpleData name="display"></SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="altitude">0.00</SimpleData>
+		<SimpleData name="depth">0.00</SimpleData>
+		<SimpleData name="temp">0.00</SimpleData>
+		<SimpleData name="time"></SimpleData>
+		<SimpleData name="model"></SimpleData>
+		<SimpleData name="filename"></SimpleData>
+		<SimpleData name="ltime"></SimpleData>
+		<SimpleData name="desc"></SimpleData>
+		<SimpleData name="link"></SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-156.25668414576316,20.802656963233307,0.312166930176318 -156.2440117450177,20.801007528333283,0.311710687354207 -156.24398877830075,20.799934571154211,0.31170183327049 -156.24591859090887,20.799958508835207,0.311769608408213 -156.24769922871323,20.799773597088464,0.311830589547753 -156.24853329680892,20.799682200540481,0.311859120614827 -156.2494457736766,20.799498604768399,0.311889705248177 -156.25016474948268,20.799288437370301,0.311913312412798 -156.25089882126991,20.799032626496267,0.311937105841935 -156.25146000212683,20.798961509768489,0.311956227757037 -156.25203465896917,20.79876919072716,0.311974915675819 -156.25263788821687,20.798410028626094,0.311993350274861 -156.25319981577871,20.798323164013965,0.312012381851673 -156.25350042980003,20.798776266376901,0.312026309780777 -156.25389479720968,20.799293258426484,0.312044001184404 -156.25438745469606,20.799598861079893,0.312063548713923 -156.25504409290542,20.800405292042026,0.312092597596347 -156.25558546903892,20.800909023963996,0.312115336768329 -156.2559169521987,20.801371387051457,0.312130420468748 -156.25668414576316,20.802656963233307,0.312166930176318</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+<Schema name="TRACK" id="TRACK">
+	<SimpleField name="type" type="string"></SimpleField>
+	<SimpleField name="ident" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="y_proj" type="float"></SimpleField>
+	<SimpleField name="x_proj" type="float"></SimpleField>
+	<SimpleField name="new_trk" type="string"></SimpleField>
+	<SimpleField name="new_seg" type="string"></SimpleField>
+	<SimpleField name="display" type="string"></SimpleField>
+	<SimpleField name="color" type="string"></SimpleField>
+	<SimpleField name="altitude" type="float"></SimpleField>
+	<SimpleField name="depth" type="float"></SimpleField>
+	<SimpleField name="temp" type="float"></SimpleField>
+	<SimpleField name="time" type="string"></SimpleField>
+	<SimpleField name="model" type="string"></SimpleField>
+	<SimpleField name="filename" type="string"></SimpleField>
+	<SimpleField name="ltime" type="string"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="link" type="string"></SimpleField>
+</Schema>
+</Document></kml>

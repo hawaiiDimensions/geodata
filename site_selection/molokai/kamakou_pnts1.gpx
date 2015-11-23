@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 1.11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="21.106876503241065" minlon="-156.897653692234542" maxlat="21.111103534114960" maxlon="-156.890040039835071"/></metadata>              
+<wpt lat="21.11110353411496" lon="-156.892491781608953">
+  <name>temp_kamakou_1</name>
+</wpt>
+<wpt lat="21.108171339801835" lon="-156.896124768262382">
+  <name>temp_kamakou_2</name>
+</wpt>
+<wpt lat="21.108395698623159" lon="-156.894626825012892">
+  <name>temp_kamakou_3</name>
+</wpt>
+<wpt lat="21.106876503241065" lon="-156.895215367263688">
+  <name>temp_kamakou_4</name>
+</wpt>
+<wpt lat="21.110050608847622" lon="-156.892323680377501">
+  <name>temp_kamakou_5</name>
+</wpt>
+<wpt lat="21.108383334326987" lon="-156.897653692234542">
+  <name>temp_kamakou_6</name>
+</wpt>
+<wpt lat="21.107050403792904" lon="-156.896476597473821">
+  <name>temp_kamakou_7</name>
+</wpt>
+<wpt lat="21.109794064210309" lon="-156.895620811778457">
+  <name>temp_kamakou_8</name>
+</wpt>
+<wpt lat="21.109336983228143" lon="-156.895460216984446">
+  <name>temp_kamakou_9</name>
+</wpt>
+<wpt lat="21.110889673336313" lon="-156.890685876607279">
+  <name>temp_kamakou_10</name>
+</wpt>
+<wpt lat="21.110341448658648" lon="-156.892885140875961">
+  <name>temp_kamakou_11</name>
+</wpt>
+<wpt lat="21.10943774997904" lon="-156.895473213775688">
+  <name>temp_kamakou_12</name>
+</wpt>
+<wpt lat="21.110745182072257" lon="-156.890040039835071">
+  <name>temp_kamakou_13</name>
+</wpt>
+<wpt lat="21.109978461521205" lon="-156.89234853213776">
+  <name>temp_kamakou_14</name>
+</wpt>
+<wpt lat="21.110723584704015" lon="-156.890796060689411">
+  <name>temp_kamakou_15</name>
+</wpt>
+<wpt lat="21.110611588250944" lon="-156.894900672206916">
+  <name>temp_kamakou_16</name>
+</wpt>
+<wpt lat="21.109866301285745" lon="-156.893524676875643">
+  <name>temp_kamakou_17</name>
+</wpt>
+<wpt lat="21.110574620116214" lon="-156.892874881923404">
+  <name>temp_kamakou_18</name>
+</wpt>
+<wpt lat="21.109428684835549" lon="-156.896105868675789">
+  <name>temp_kamakou_19</name>
+</wpt>
+<wpt lat="21.110268060738811" lon="-156.892435649704964">
+  <name>temp_kamakou_20</name>
+</wpt>
+<wpt lat="21.108466585640926" lon="-156.897651294421848">
+  <name>kamakou_21</name>
+</wpt>
+<wpt lat="21.108337858417482" lon="-156.894193730667752">
+  <name>temp_kamakou_22</name>
+</wpt>
+<wpt lat="21.108348620406087" lon="-156.895225341555602">
+  <name>temp_kamakou_23</name>
+</wpt>
+<wpt lat="21.110488280804653" lon="-156.894742723396774">
+  <name>kamakou_24</name>
+</wpt>
+<wpt lat="21.109997666908434" lon="-156.893086354174415">
+  <name>temp_kamakou_25</name>
+</wpt>
+<wpt lat="21.109383440856341" lon="-156.892789789150214">
+  <name>temp_kamakou_26</name>
+</wpt>
+<wpt lat="21.109874919860076" lon="-156.894144155304389">
+  <name>temp_kamakou_27</name>
+</wpt>
+<wpt lat="21.108700393209997" lon="-156.895367775636998">
+  <name>temp_kamakou_28</name>
+</wpt>
+<wpt lat="21.108721067073901" lon="-156.895453435901942">
+  <name>temp_kamakou_29</name>
+</wpt>
+<wpt lat="21.110597439461689" lon="-156.891011246732489">
+  <name>kamakou_30</name>
+</wpt>
+<wpt lat="21.108212749708766" lon="-156.895513159975991">
+  <name>temp_kamakou_31</name>
+</wpt>
+<wpt lat="21.106899386731705" lon="-156.896751517122453">
+  <name>temp_kamakou_32</name>
+</wpt>
+<wpt lat="21.108917657376164" lon="-156.895015272129541">
+  <name>temp_kamakou_33</name>
+</wpt>
+<wpt lat="21.108080021779696" lon="-156.89481216479723">
+  <name>temp_kamakou_34</name>
+</wpt>
+<wpt lat="21.107289520546306" lon="-156.895160552479155">
+  <name>kamakou_35</name>
+</wpt>
+<wpt lat="21.110962353635273" lon="-156.892455074570307">
+  <name>temp_kamakou_36</name>
+</wpt>
+<wpt lat="21.108418151298256" lon="-156.895385801846373">
+  <name>temp_kamakou_37</name>
+</wpt>
+<wpt lat="21.10826761196434" lon="-156.894405195841216">
+  <name>temp_kamakou_38</name>
+</wpt>
+<wpt lat="21.107441224663031" lon="-156.894464805882592">
+  <name>temp_kamakou_39</name>
+</wpt>
+<wpt lat="21.108519800059955" lon="-156.896764006042275">
+  <name>temp_kamakou_40</name>
+</wpt>
+</gpx>
