@@ -1,0 +1,1000 @@
+foo$y
+min(foo$y)
+plot(foo, log='y')
+hist(log(x[x > 4]), xaxt='n', prob=TRUE)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=100)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=500)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=200)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=100)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=200)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=300)
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=100)
+lines(density(log(x[x>4])))
+axis(1, at=log(10^(-1:4)), labels=10^(-1:4))
+axis(1, at=log(10^(0:4)), labels=10^(0:4))
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=100)
+axis(1, at=log(10^(1:4)), labels=10^(1:4))
+axis(1, at=log(10^(1:3)), labels=10^(1:3))
+hist(log(x[x > 4]), xaxt='n', prob=TRUE, breaks=100)
+axis(1, at=log(10^(1:3)), labels=10^(1:3))
+hist(log(x[x > 9]), xaxt='n', prob=TRUE, breaks=100)
+axis(1, at=log(10^(1:3)), labels=10^(1:3))
+x <- trackDists(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'))
+x
+paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/')
+x <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), trackDists)
+library(sp)#
+library(rgdal)#
+setwd('~/Dropbox/hdim/routes')#
+#
+trackDists <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	x <- try(spTransform(x, CRS('+proj=utm +zone=5 +datum=NAD83')))#
+	if(class(x) == 'try-error') browser()#
+	rapply(coordinates(x), function(p) {#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- sqrt((p[i-1, 1] - p[i, 1])^2 + (p[i-1, 2] - p[i, 2])^2)#
+		}#
+		return(D)#
+	})#
+}#
+#
+x <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), trackDists)
+print(f)
+x
+x <- readOGR(f, layer='tracks')
+plot(x)
+coordinates(x)
+spTransform(x, CRS('+proj=utm +zone=5 +datum=NAD83'))
+x
+spTransform(x, CRS('+proj=utm +zone=5 +datum=NAD83'))
+?din
+?sin
+gcd <- function(p1, p2) {#
+	2*asin(sqrt(4*sin(pi*(p1[1] - p2[1])/360)^2 + 4*sin(pi*(p1[2] - p2[2])/360)^2)/2)#
+}#
+#
+trackDists <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	# x <- try(spTransform(x, CRS('+proj=utm +zone=5 +datum=NAD83')))#
+	if(class(x) == 'try-error') browser()#
+	rapply(coordinates(x), function(p) {#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			# D[i] <- sqrt((p[i-1, 1] - p[i, 1])^2 + (p[i-1, 2] - p[i, 2])^2)#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		return(D)#
+	})#
+}#
+#
+x <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), trackDists)
+gcd <- function(p1, p2) {#
+	2*asin(sqrt(4*sin(pi*(p1[1] - p2[1])/360)^2 + 4*sin(pi*(p1[2] - p2[2])/360)^2)/2)#
+}#
+#
+trackDists <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	# x <- try(spTransform(x, CRS('+proj=utm +zone=5 +datum=NAD83')))#
+	if(class(x) == 'try-error') browser()#
+	rapply(coordinates(x), function(p) {#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			# D[i] <- sqrt((p[i-1, 1] - p[i, 1])^2 + (p[i-1, 2] - p[i, 2])^2)#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		return(D)#
+	})#
+}#
+#
+x <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), trackDists)
+sapply(x, length)
+bla <- unlist(x)
+length(bla)
+class(cla)
+class(bla)
+sum(sapply(x, length))
+x <- unlist(x)
+hist(x, breaks=100)
+hist(log(x), breaks=100)
+hist(log(x), breaks=100)
+exp(15)
+exp(-15)
+hist(log(x, base=10), breaks=100)
+hist(log(x[x>10^-6], base=10), breaks=100)
+hist(log(x[x>10^-6 & x<10^-3], base=10), breaks=100)
+foo <- density(log(x[x>10^-6 & x<10^-3], base=10))
+plot(foo, log='y')
+hist(log(x[x>10^-6 & x<10^-3], base=10), breaks=100)
+hist(log(x[x>10^-6 & x<10^-3], base=10), breaks=500)
+foo <- density(log(x[x>10^-6 & x<10^-3], base=10))#
+plot(foo, log='y')
+foo <- density(log(x, base=10))
+plot(foo, log='y')
+foo <- density(log(x[x>10^-6 & x<10^-3], base=10))
+plot(foo, log='y')
+plot(density(log(x[x < 10^-4])))
+plot(density(log(x[x < 10^-4 & x > 10^-18], base=10)))
+plot(density(log(x[x < 10^-4 & x > 10^-8], base=10)))
+plot(density(log(x[x < 10^-4 & x > 10^-8], base=10)), log='y')
+foo <- density(log(x[x>10^-6 & x<10^-3], base=10))#
+plot(foo, log='y')
+abline(v=10^-4)
+abline(v=-4)
+?SpatialLinesDataFrame
+foo <- list(list(list(1:3), list(4:5)), list(list(1:10)))
+foo
+rapply(foo, mean, how='replace')
+rapply(foo, mean, how='list')
+rapply(foo, mean, how='unlist')
+rapply(foo, c, how='unlist')
+rapply(foo, c, how='replace')
+rapply(foo, c, how='list')
+4:8
+foo <- list(list(list(matrix(1:4, nrow=2)), list(matrix(4:7, nrow=2))), list(list(matrix(1:9, nrow=3))))
+rapply(foo, matrix, how='list')
+rapply(foo, matrix, how='replace')
+rapply(foo, matrix, how='unlist')
+x <- readOGR('~/Dropbox/hdim/routes/gpx/Selected Data from My Collection 2.GPX', 'tracks')
+x <- readOGR('gpx/Selected Data from My Collection 2.GPX', 'tracks')
+x@data
+plot(x)
+plot(x[1, ])
+plot(x[2, ])
+plot(x[3, ])
+plot(x[1, ])
+plot(x)
+plot(x[1, ], col='red', add=TRUE)
+plot(x[2, ], col='blue', add=TRUE)
+plot(x[3, ], col='green', add=TRUE)
+length(coordinates(x))
+length(coordinates(x)[[1]])
+length(coordinates(x)[[2]])
+length(coordinates(x)[[3]])
+length(coordinates(x)[[3]][[1]])
+lapply(coordinates(x), function(p) nrow(p[[1]]))
+rapply(coordinates(x), nrow)
+?split
+bla <- c(0,0,0,1,0,0,1,0,0)
+bla > 0
+cumsum(bla > 0)
+?split
+lapply(coordinates(x), function(p) class(p[[1]]))
+lapply(coordinates(x), function(p) Lines(p[[1]]))
+?Lines
+lapply(coordinates(x), function(p) Line(p[[1]]))
+lapply(coordinates(x), function(p) Lines(list(Line(p[[1]])), ID=as.character(runif(1))))
+SpatialLines(lapply(coordinates(x), function(p) Lines(list(Line(p[[1]])), ID=as.character(runif(1)))))
+SpatialLines(lapply(coordinates(x), function(p) Lines(list(Line(p[[1]])), ID=as.character(runif(1)))), CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+methods(class='SpatialLines')
+? spChFIDs
+bla <- SpatialLines(lapply(coordinates(x), function(p) Lines(list(Line(p[[1]])), ID=as.character(runif(1)))), CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+spChFIDs(bla, as.character(0:2))
+l1 = cbind(c(1,2,3),c(3,2,2))#
+l1a = cbind(l1[,1]+.05,l1[,2]+.05)#
+l2 = cbind(c(1,2,3),c(1,1.5,1))#
+Sl1 = Line(l1)#
+Sl1a = Line(l1a)#
+Sl2 = Line(l2)#
+S1 = Lines(list(Sl1, Sl1a), ID="a")
+S1
+l1 = cbind(c(1,2,3),c(3,2,2))#
+l1a = cbind(l1[,1]+.05,l1[,2]+.05)#
+l2 = cbind(c(1,2,3),c(1,1.5,1))#
+Sl1 = Line(l1)#
+Sl1a = Line(l1a)#
+Sl2 = Line(l2)#
+S1 = Lines(list(Sl1, Sl1a), ID=c('a', 'b'))
+Line(data.frame(1:4, 1:4))
+Line(cbind(1:4, 1:4))
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+	out <- lapply(coordinates(x), function(p) {#
+		browser()#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(0:(length(sl)-1)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(0:(length(sl)-1))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+p <- p[[1]]
+p
+D <- numeric(nrow(p))
+for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}
+D
+Q
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		browser()#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(0:(length(sl)-1)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(0:(length(sl)-1))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+print(D)
+any(D > 10^-4)
+plot(p)
+plot(p, type='l')
+any(D > 10^-4)
+p <- list(p)
+l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})
+l
+sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+sl
+sl <- spChFIDs(sl, as.character(0:(length(sl)-1)))
+sl
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(0:(length(sl)-1))))
+sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+sl <- spChFIDs(sl, as.character(1:length(sl)))
+sl
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))
+sldf
+return(sldf)
+nrow(p)
+p
+Q
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			browser()#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+D
+p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)
+p
+l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})
+l
+sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+sl <- spChFIDs(sl, as.character(1:length(sl)))
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))
+plot(sldf)
+plot(sldf, col=1:3)
+plot(x)
+plot(sldf, col=2:4, add=TRUE)
+Q
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+traceback()
+? spChFIDs
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- try(SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0')))#
+		if(class(sl)=='try-error') browser()#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- try(SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0')))#
+		if(class(sl)=='try-error') browser()#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- try(lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		}))#
+		if(class(sl)=='try-error') browser()#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- try(lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		}))#
+		if(class(l)=='try-error') browser()#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- try(lapply(p, function(lp) {#
+			foo <- try(Lines(list(Line(lp)), ID=as.character(runif(1))))#
+			if(class(foo) == 'try-error') browser()#
+			else return(foo)#
+		}))#
+		if(class(l)=='try-error') browser()#
+		## make SpatialLines and then DataFrame#
+		sl <- try(SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0')))#
+		if(class(sl) == 'try-error') browser()#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- try(lapply(p, function(lp) {#
+			foo <- try(Lines(list(Line(lp)), ID=as.character(runif(1))))#
+			if(class(foo) == 'try-error') browser()#
+			else return(foo)#
+		}))#
+		if(class(l)=='try-error') browser()#
+		## make SpatialLines and then DataFrame#
+		sl <- try(SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0')))#
+		if(class(sl) == 'try-error') browser()#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+traceback()
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- try(lapply(p, function(lp) {#
+			foo <- try(Lines(list(Line(lp)), ID=as.character(runif(1))))#
+			if(class(foo) == 'try-error') browser()#
+			else return(foo)#
+		}))#
+		if(class(l)=='try-error') browser()#
+		## make SpatialLines and then DataFrame#
+		sl <- try(SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0')))#
+		if(class(sl) == 'try-error') browser()#
+		sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})#
+	browser()#
+	do.call(rbind, out)#
+}#
+#
+bla <- cleanTracks('gpx/Selected Data from My Collection 2.GPX')
+do.call(rbind, out)
+out
+out[[1]]
+class(out)
+class(out[[1]])
+class(out[[2]])
+class(out[[3]])
+?rbind.SpatialLinesDataFrame
+out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))))#
+		return(sldf)#
+	})
+out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+		return(sldf)#
+	})
+do.call(rbind, out)
+out[[1]]
+do.call(rbind, out)
+do.call(rbind, out, match.ID=FALSE)
+?rbind.SpatialLinesDataFrame
+out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+		return(sl)#
+	})
+out[[1]]
+class(out[[1]])
+class(out[[2]])
+class(out[[3]])
+out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+		return(l)#
+	})
+class(out[[3]])
+out <- do.call(c, out)
+length(out)
+class(out[[1]])
+sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+sl
+class(sl)
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		return(l)#
+	})#
+	out <- do.call(c, out)#
+	# sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+	# sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+	return(out)#
+}#
+#
+out <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), cleanTracks)
+Q
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > 10^-4)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > 10^-4)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		## make SpatialLines and then DataFrame#
+		sl <- SpatialLines(l, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+		# sl <- spChFIDs(sl, as.character(1:length(sl)))#
+		return(l)#
+	})#
+	out <- do.call(c, out)#
+	# sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+	# sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+	return(out)#
+}#
+#
+out <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), cleanTracks)
+length(out)
+out <- do.call(c, out)
+length(out)
+sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)
+sldf@data
+spChFIDs(sldf, as.character(sldf@data$name))
+sldf <- spChFIDs(sldf, as.character(sldf@data$name))
+plot(sldf)
+writeOGR(sldf, 'semi_clean_tracks.gpx', layer='tracks', driver='GPX')
+library(sp)#
+library(rgdal)#
+setwd('~/Dropbox/hdim/routes')#
+#
+## from `trackDists.R' we know that a cuttoff of 10^-4.5 radians is about right#
+minrad <- 10^-4.5#
+#
+## function to calculate approx great circle dist#
+gcd <- function(p1, p2) {#
+	2*asin(sqrt(4*sin(pi*(p1[1] - p2[1])/360)^2 + 4*sin(pi*(p1[2] - p2[2])/360)^2)/2)#
+}#
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > minrad)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > minrad)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		return(l)#
+	})#
+	out <- do.call(c, out)#
+	# sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+	# sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+	return(out)#
+}#
+#
+out <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), cleanTracks)#
+out <- do.call(c, out)#
+sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+sldf <- spChFIDs(sldf, as.character(sldf@data$name))#
+#
+writeOGR(sldf, 'semi_clean_tracks.gpx', layer='tracks', driver='GPX', overwrite_layer=TRUE)
+writeOGR(sldf, 'semi_clean_tracks.gpx', layer='tracks', driver='GPX', overwrite_layer=TRUE)
+library(sp)#
+library(rgdal)#
+setwd('~/Dropbox/hdim/routes')#
+#
+## from `trackDists.R' we know that a cuttoff of 10^-5 radians is about right#
+minrad <- 10^-5#
+#
+## function to calculate approx great circle dist#
+gcd <- function(p1, p2) {#
+	2*asin(sqrt(4*sin(pi*(p1[1] - p2[1])/360)^2 + 4*sin(pi*(p1[2] - p2[2])/360)^2)/2)#
+}#
+cleanTracks <- function(f) {#
+	x <- readOGR(f, layer='tracks')#
+	## re-project if needed#
+    if(proj4string(x) != '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0') {#
+        spTransform(x, CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+    }#
+    # plot(x)#
+	out <- lapply(coordinates(x), function(p) {#
+		p <- p[[1]]#
+		D <- numeric(nrow(p))#
+		for(i in 2:nrow(p)) {#
+			D[i] <- gcd(p[i-1, ], p[i, ])#
+		}#
+		## split p into chunks #
+		if(any(D > minrad)) {#
+			p <- split(as.data.frame(p), as.factor(cumsum(D > minrad)), drop=TRUE)#
+		} else {#
+			p <- list(p)#
+		}#
+		## list of Lines objects#
+		l <- lapply(p, function(lp) {#
+			Lines(list(Line(lp)), ID=as.character(runif(1)))#
+		})#
+		return(l)#
+	})#
+	out <- do.call(c, out)#
+	# sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+	# sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+	return(out)#
+}#
+#
+out <- lapply(paste('gpx', list.files('gpx', pattern='\\.GPX'), sep='/'), cleanTracks)#
+out <- do.call(c, out)#
+sl <- SpatialLines(out, proj4string=CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0'))#
+sldf <- SpatialLinesDataFrame(sl, data=data.frame(name=as.character(1:length(sl))), match.ID=FALSE)#
+sldf <- spChFIDs(sldf, as.character(sldf@data$name))#
+#
+writeOGR(sldf, 'semi_clean_tracks.gpx', layer='tracks', driver='GPX', overwrite_layer=TRUE)
+readOGR('gpx/Selected Data from My Collection 2.GPX', layer='tracks')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='tracks')
+bla@data
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='points')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='waypoints')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='tracks')
+?readOGR
+ogrListLayers('gpx/Selected Data from My Collection 2.GPX')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='waypoints')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='routes')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', layer='track_points')
+head(bla@data)
+plot(bla@data)
+plot(bla)
+plot(bla, type='l')
+coordinates(bla)
+class(coordinates(bla))
+plot(coordinates(bla))
+plot(coordinates(bla), type='l')
+bla <- readOGR('gpx/Selected Data from My Collection 2.GPX', )
+head(bla@data)
+?par
+?par
+plot.meteDist <- function(x, ptype=c("cdf","rad"), th.col="red", #
+                          lower.tail=TRUE, add.legend=TRUE, add.line=FALSE, ...) {#
+  ptype <- match.arg(ptype,c("cdf", "rad"))#
+  plot.par <- list(...)#
+  if(!('ylab' %in% names(plot.par))) {#
+    ylab <- ifelse(ptype=='cdf', 'Cumulative probability', '%s')#
+    ylab <- sprintf(ylab, switch(x$type,#
+                                 'sad' = 'Abundance',#
+                                 'ipd' = 'Metabolic rate',#
+                                 'sipd' = 'Metabolic rate'))#
+    plot.par$ylab <- ylab#
+  }#
+  if(!('xlab' %in% names(plot.par))) {#
+    xlab <- ifelse(ptype=='cdf', '%s', 'Rank')#
+    xlab <- sprintf(xlab, switch(x$type,#
+                                 'sad' = 'Abundance',#
+                                 'ipd' = 'Metabolic rate',#
+                                 'sipd' = 'Metabolic rate'))#
+    plot.par$xlab <- xlab#
+  }#
+  if(ptype=="cdf") {#
+    this.curve <- x$p#
+    ## if no data, don't plot it, just plot the curve#
+    if(!is.null(x$data)) {#
+      xmax <- max(x$data)#
+      X <- .ecdf(x$data, !lower.tail)#
+    } else {#
+      xmax <- ifelse(is.finite(max(plot.par$xlim)), #
+                     max(plot.par$xlim), #
+                     x$state.var['N0']/x$state.var['S0'])#
+      X <- cbind(c(1, floor(xmax)), this.curve(c(1, floor(xmax))))#
+      plot.par$type <- 'n'#
+    }#
+    do.call(plot, append(list(x=X),plot.par))#
+    if(x$type %in% c("gsd", "sad")) {#
+      this.supp <- 1:xmax#
+      points(this.supp, this.curve(this.supp,lower.tail=lower.tail),#
+             type="l", col=th.col)#
+    } else {#
+      curve(this.curve(x,lower.tail=lower.tail), add=TRUE, col=th.col)#
+    }#
+  } else {#
+    ## if no data, don't plot it, just plot the rank fun#
+    if(is.null(x$data)) {#
+      X <- meteDist2Rank(x)#
+      plot.par$type <- 'n'#
+    } else {#
+      X <- x$data#
+    }#
+    ## if ylim not already specified make sure both data and theory fit#
+    if(!('ylim' %in% names(plot.par))) {#
+      plot.par$ylim <- range(X, x$rankFun)#
+    }#
+    ## do plotting#
+    do.call(plot, append(list(x=X),plot.par))#
+    points(meteDist2Rank(x), type="l", col=th.col)#
+  }#
+  if(add.legend) legend(ifelse(ptype=='cdf', 'bottomright', 'topright'), #
+                        legend=c('data', 'METE'), col=c('black', 'red'),#
+                        lty=c(NA, 1), pch=c(21, NA), bty='n') #
+}
+?mtext
+?mtext
+.Machine$double.eps
