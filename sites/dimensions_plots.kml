@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="dimensions_plots" id="dimensions_plots">
+	<SimpleField name="dateCreated" type="string"></SimpleField>
+</Schema>
+<Folder><name>dimensions_plots</name>
+  <Placemark>
+	<name>alili_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.513401441276073,19.230916695669293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>alili_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.51665797829628,19.232497522607446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>alili_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.515487110242248,19.230526853352785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>alili_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/07/27 20:59:19+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.514370976015925,19.232790973037481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>alili_14</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.518749095499516,19.232468688860536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>alili_15</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.518396468833089,19.234279682859778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_02</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.217200741171837,19.375030947849154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.222518220543861,19.374839588999748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.220195930451155,19.37483187764883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_87</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.216959677636623,19.376912517473102</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_89</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.214931508526206,19.376837918534875</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>escape_90</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.219737440347672,19.376815455034375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_079</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.214833859354258,19.372431468218565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_081</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.216623144224286,19.371732249855995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_084</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.21215139888227,19.37182285822928</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_107</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.217161262407899,19.37000960111618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_109</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.215220348909497,19.370042290538549</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>flow1973_110</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.213421927765012,19.370064167305827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.284560984000564,19.929640274494886</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.286460155621171,19.928893279284239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.282145151868463,19.928325656801462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_09</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.291404221206903,19.927384620532393</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_11</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.293107172474265,19.926278879866004</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>hippnet_13</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.285461284220219,19.925835561007261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.59021613560617,19.186527812853456</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.591381806880236,19.188136802986264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.587898958474398,19.184212647378445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.584821626543999,19.181908210739493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.589200919494033,19.182388242334127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_10</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.590164167806506,19.184424541890621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaOld_71</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.584821626543999,19.181908210739493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_02</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.583639275282621,19.183487109839916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.585601730272174,19.187432723119855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.587658314034343,19.185236496850848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_09</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.591135546565056,19.188799476251006</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_10</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.588145051151514,19.18718914501369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kaiholenaYng_11</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.589017020538449,19.188856473192573</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 01:47:06+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.896242965012789,21.107342010363936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_09</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 21:53:36+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.89549395814538,21.109200026839972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_15</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 19:46:44+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.89061401411891,21.110781021416187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_17</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 20:51:39+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.893435027450323,21.10995096154511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_39</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 02:32:38+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.894502965733409,21.107669994235039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kamakou_41</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/25 23:41:11+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.900974968448281,21.107160039246082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/06/25 21:50:16+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.721628032624722,20.108155030757189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_03</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/06/25 22:21:30+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.720350965857506,20.109974993392825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/01/13 01:11:12+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.721240285784006,20.105492100119591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/06/26 00:48:02+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.722506958991289,20.106709990650415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/06/26 01:48:05+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.724177975207567,20.104809980839491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaOld_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/06/26 02:48:27+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.726070022210479,20.107192033901811</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_03</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/19 16:48:15+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.744324969127774,20.111193722113967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/19 16:48:15+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.741624319925904,20.109791178256273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/09/10 21:11:33+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.739660020917654,20.112256966531277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/19 16:48:15+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.734979482367635,20.112422425299883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_10</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/09/10 21:18:12+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.744052976369858,20.109290024265647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kohalaYng_20</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/09/10 21:16:33+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.742301996797323,20.111926971003413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_09</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/27 22:10:23+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.620656035840511,22.141492003574967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_11</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/27 21:00:11+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.620061004534364,22.140047969296575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_16</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/20 23:22:56+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.623150993138552,22.136313999071717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_21</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/28 01:07:12+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.617937030270696,22.146298019215465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_22</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/22 00:22:49+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.616774963214993,22.147739036008716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>kokee_23</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/08/22 03:32:58+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-159.614697005599737,22.15028302744031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:27:00+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.295354025438428,19.938377989456058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:34:06+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.298613999038935,19.935301998630166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:37:30+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.298092141747475,19.933570884168148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_10</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:39:04+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.298734027892351,19.931732984259725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_12</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:42:53+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.303411968052387,19.930327003821731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupLSAG_15</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/18 20:44:13+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.301324035972357,19.928548028692603</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.274716187268496,19.924365878105164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.266498485580087,19.921318972483277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/08/25 03:42:38+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.273040980100632,19.926706021651626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_11</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.270704524591565,19.921626504510641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_14</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.27303209528327,19.924125568941236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>laupOld_20</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/08/24 23:25:23+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.265164002776146,19.918089006096125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.246518962085247,19.453022377565503</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_02</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.246568750590086,19.456634474918246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_03</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.246734209358692,19.454825995489955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.248974189162254,19.451546827331185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_10</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.250898087397218,19.45296797901392</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>olaa_12</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.251436876133084,19.450613083317876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.238777352496982,19.407841404899955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.236901063472033,19.409851552918553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.238062962889671,19.411282343789935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/02/18 08:36:26+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.240397658199072,19.415044980123639</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_08</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.235264496877789,19.415471451357007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>thurston_12</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.235870173200965,19.417992979288101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_01</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.27991933748126,19.664377011358738</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_02</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.277782790362835,19.664982184767723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_03</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.278665153309703,19.663327261805534</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_04</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.27694066055119,19.664080627262592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_05</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.27744491584599,19.661988001316786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>treePlanting_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-155.275787310674787,19.662749581038952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_06</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/06/26 12:55:01+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.249361038208008,20.799865974113345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_07</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/06/26 12:55:01+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.250262008979917,20.797977028414607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_16</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/28 00:49:01+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.241851020604372,20.799587024375796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_18</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/03/28 23:31:02+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.243538968265057,20.799762038514018</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_32</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/06/26 12:55:01+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.252714972943068,20.800358997657895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>waikamoi_36</name>
+	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
+		<SimpleData name="dateCreated">2015/06/26 12:55:01+00</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-156.245884979143739,20.799243031069636</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
