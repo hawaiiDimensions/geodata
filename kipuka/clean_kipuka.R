@@ -17,4 +17,6 @@ x@data <- kip
 x.gpx <- SpatialPointsDataFrame(gCentroid(x, byid=TRUE), data=kip[, 1, drop=FALSE],
                                 proj4string=CRS(prog4string(x)))
 
-writeOGR(x.gpx, 'kipuka.gpx', layer='waypoints', driver='GPX', overwrite_layer=TRUE)
+writeOGR(x.gpx, 'kipuka.kml', layer='kipuka', driver='KML', overwrite_layer=TRUE)
+
+write.table(kip, file='kipuka_info.csv', sep=',', row.names=FALSE)
