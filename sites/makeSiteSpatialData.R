@@ -1,6 +1,6 @@
 library(sp)
 library(rgdal)
-setwd('~/Dropbox/hdim/sites')
+setwd('~/Dropbox/hawaiiDimensions/geodata/sites')
 
 ## function to take filename `f' and read-in GPX data, standarizing it and outputting it
 compileGPX <- function(f) {
