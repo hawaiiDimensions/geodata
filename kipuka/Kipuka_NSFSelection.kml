@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kipuka_NSFSelection.kml</name>
+	<Style id="PolyStyle00">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff6e6e6e</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffeef2c4</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>Kipuka_NSFSelection</name>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00000">
+			<name>36</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kuu</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>36</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kuu</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.1642</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>174.61</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.363758,19.630239,0 -155.363881,19.63034,0 -155.36395,19.630399,0 -155.364109,19.630437,0 -155.364201,19.630312,0 -155.364246,19.630224,0 -155.364226,19.630143,0 -155.36427,19.630097,0 -155.36423,19.630017,0 -155.364149,19.629987,0 -155.364014,19.630028,0 -155.363954,19.630089,0 -155.363962,19.630141,0 -155.363861,19.630164,0 -155.363778,19.630136,0 -155.363711,19.630157,0 -155.363758,19.630239,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>13</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K13</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K13</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.105</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>123.98</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.340902,19.670323,0 -155.340815,19.670376,0 -155.340736,19.670435,0 -155.340758,19.670542,0 -155.340894,19.670569,0 -155.34101,19.670568,0 -155.341151,19.670538,0 -155.341173,19.670421,0 -155.341148,19.670354,0 -155.341052,19.670301,0 -155.340902,19.670323,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00002">
+			<name>12</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K12</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K12</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.162</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>167.7</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.342983,19.669831,0 -155.343104,19.669745,0 -155.34301,19.669626,0 -155.342795,19.669546,0 -155.342576,19.66958,0 -155.342427,19.669663,0 -155.342458,19.669788,0 -155.342579,19.669795,0 -155.342726,19.669829,0 -155.342852,19.669826,0 -155.342983,19.669831,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00003">
+			<name>4</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K4</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K4</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.0685</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>96.92</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.347292,19.669027,0 -155.347202,19.669078,0 -155.347158,19.669187,0 -155.347262,19.66926,0 -155.347422,19.669247,0 -155.347483,19.669155,0 -155.347472,19.669068,0 -155.34739,19.669014,0 -155.347292,19.669027,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00004">
+			<name>2</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K2</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K2</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.1579</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>145.87</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.345365,19.670044,0 -155.345286,19.670107,0 -155.345288,19.670222,0 -155.345294,19.670331,0 -155.345341,19.67043,0 -155.345464,19.670444,0 -155.345575,19.670392,0 -155.34566,19.670293,0 -155.345667,19.670096,0 -155.345579,19.670025,0 -155.345473,19.669997,0 -155.345365,19.670044,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00005">
+			<name>24</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kh</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kh</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.0863</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>113.16</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.339594,19.671142,0 -155.339576,19.671253,0 -155.339659,19.671316,0 -155.339801,19.67132,0 -155.339921,19.671215,0 -155.339858,19.671139,0 -155.33981,19.671042,0 -155.339603,19.671024,0 -155.339594,19.671142,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00006">
+			<name>37</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kv</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>37</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kv</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.0685</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>112.79</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.353367,19.661324,0 -155.353272,19.661431,0 -155.3533,19.661528,0 -155.353254,19.661639,0 -155.353378,19.661638,0 -155.353466,19.661515,0 -155.353546,19.661384,0 -155.353557,19.661324,0 -155.353367,19.661324,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00007">
+			<name>39</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Ky</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>39</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Ky</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.1213</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>132.56</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.360131,19.634578,0 -155.360127,19.634737,0 -155.36021,19.634833,0 -155.360303,19.634876,0 -155.360478,19.634815,0 -155.360555,19.634705,0 -155.360569,19.634625,0 -155.360438,19.634575,0 -155.360429,19.634573,0 -155.360244,19.634564,0 -155.360131,19.634578,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00008">
+			<name>28</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kmm</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>28</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kmm</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.095</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>115.32</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.334951,19.672389,0 -155.334998,19.672504,0 -155.3351,19.672554,0 -155.335243,19.672534,0 -155.335322,19.672409,0 -155.335308,19.672285,0 -155.335039,19.672267,0 -155.334951,19.672389,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00009">
+			<name>14</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K14</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K14</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.5513</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>338.66</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.348428,19.664764,0 -155.348272,19.664822,0 -155.348196,19.664987,0 -155.348168,19.665183,0 -155.348173,19.665393,0 -155.34804,19.665564,0 -155.348073,19.66577,0 -155.348268,19.665702,0 -155.348387,19.665558,0 -155.348666,19.665441,0 -155.348656,19.66529,0 -155.348665,19.665174,0 -155.348821,19.665115,0 -155.348966,19.665004,0 -155.348843,19.664938,0 -155.348749,19.664844,0 -155.348626,19.664729,0 -155.348428,19.664764,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00010">
+			<name>9</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K9</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K9</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.5462</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>347.12</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.3692,19.667976,0 -155.369271,19.668068,0 -155.369408,19.668169,0 -155.369539,19.668186,0 -155.369614,19.668136,0 -155.369695,19.668042,0 -155.369788,19.667964,0 -155.369931,19.667922,0 -155.370074,19.667945,0 -155.370162,19.667877,0 -155.370164,19.667794,0 -155.37009,19.667773,0 -155.370033,19.667814,0 -155.369944,19.667838,0 -155.369818,19.667788,0 -155.369744,19.667784,0 -155.369693,19.667708,0 -155.369626,19.667613,0 -155.36954,19.667537,0 -155.369432,19.667438,0 -155.369301,19.667441,0 -155.36908,19.667448,0 -155.368984,19.667526,0 -155.368898,19.667632,0 -155.368954,19.667749,0 -155.369068,19.667805,0 -155.36913,19.667896,0 -155.3692,19.667976,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00011">
+			<name>20</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kc</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kc</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.4215</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>318.1</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.330695,19.674267,0 -155.330326,19.674293,0 -155.329951,19.674378,0 -155.329715,19.674541,0 -155.329506,19.674744,0 -155.329471,19.674898,0 -155.329568,19.674913,0 -155.329837,19.674786,0 -155.330151,19.674691,0 -155.330375,19.674652,0 -155.330475,19.674575,0 -155.330613,19.674442,0 -155.330693,19.674343,0 -155.330713,19.674263,0 -155.330695,19.674267,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00012">
+			<name>23</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kg</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kg</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.2678</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>210.35</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.352266,19.662002,0 -155.352214,19.662105,0 -155.352194,19.662344,0 -155.35232,19.662393,0 -155.352437,19.662395,0 -155.35257,19.662294,0 -155.352729,19.662257,0 -155.352795,19.662199,0 -155.352858,19.66209,0 -155.352941,19.661993,0 -155.352781,19.661943,0 -155.352515,19.661939,0 -155.352266,19.662002,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00013">
+			<name>22</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kd</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kd</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.7393</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>418.53</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.327706,19.675465,0 -155.327761,19.675585,0 -155.327939,19.675687,0 -155.328014,19.675721,0 -155.328134,19.675722,0 -155.328288,19.675637,0 -155.328397,19.675448,0 -155.328466,19.675341,0 -155.328675,19.675351,0 -155.328837,19.675311,0 -155.32901,19.675281,0 -155.329125,19.675183,0 -155.329206,19.675066,0 -155.329214,19.674937,0 -155.329136,19.674833,0 -155.328939,19.674743,0 -155.328762,19.674821,0 -155.328586,19.674978,0 -155.328447,19.675132,0 -155.328336,19.67517,0 -155.328093,19.675148,0 -155.327889,19.675212,0 -155.327768,19.675325,0 -155.327706,19.675465,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00014">
+			<name>29</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kn</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>29</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kn</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.7934</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>414.31</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.349592,19.663397,0 -155.349399,19.663635,0 -155.349212,19.663786,0 -155.349069,19.663928,0 -155.348886,19.664023,0 -155.348788,19.664152,0 -155.348791,19.664237,0 -155.348816,19.664275,0 -155.349033,19.664325,0 -155.349406,19.664248,0 -155.349533,19.664071,0 -155.349752,19.663949,0 -155.349912,19.663765,0 -155.350076,19.663572,0 -155.350222,19.663404,0 -155.350131,19.663237,0 -155.349757,19.663201,0 -155.349592,19.663397,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00015">
+			<name>34</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kt</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>34</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kt</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.2152</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>206.3</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.360345,19.640209,0 -155.360324,19.640288,0 -155.36038,19.640369,0 -155.36046,19.640303,0 -155.360501,19.640208,0 -155.360685,19.640147,0 -155.36078,19.640025,0 -155.3608,19.639881,0 -155.360483,19.639857,0 -155.360295,19.639934,0 -155.360144,19.640046,0 -155.360153,19.640161,0 -155.360307,19.640158,0 -155.360345,19.640209,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00016">
+			<name>38</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kx</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>38</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kx</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.2155</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>196.36</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.360706,19.635986,0 -155.360776,19.636128,0 -155.360674,19.636194,0 -155.360586,19.636256,0 -155.360588,19.636264,0 -155.360629,19.63643,0 -155.36067,19.636557,0 -155.360764,19.636591,0 -155.360828,19.636526,0 -155.36096,19.636404,0 -155.361032,19.636346,0 -155.361073,19.63625,0 -155.361046,19.636124,0 -155.360961,19.636055,0 -155.360823,19.635938,0 -155.360706,19.635986,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00017">
+			<name>40</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kz</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>40</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kz</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.1937</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>191.51</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.359422,19.635237,0 -155.359256,19.635245,0 -155.359161,19.635319,0 -155.359118,19.635484,0 -155.359038,19.635548,0 -155.359015,19.635656,0 -155.359003,19.635743,0 -155.359072,19.635757,0 -155.359132,19.635735,0 -155.359275,19.635667,0 -155.359347,19.635596,0 -155.3594,19.635555,0 -155.359456,19.635497,0 -155.359482,19.635426,0 -155.359533,19.635368,0 -155.359612,19.635317,0 -155.359536,19.635228,0 -155.359534,19.635225,0 -155.359422,19.635237,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00018">
+			<name>30</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Knn</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>30</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Knn</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.7168</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>381.57</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.370534,19.654245,0 -155.370341,19.654283,0 -155.37017,19.654294,0 -155.369982,19.654402,0 -155.370102,19.654676,0 -155.369977,19.654806,0 -155.369811,19.654898,0 -155.36976,19.655115,0 -155.370012,19.655239,0 -155.370258,19.655264,0 -155.370366,19.655037,0 -155.370565,19.654896,0 -155.370627,19.654681,0 -155.370752,19.654487,0 -155.370756,19.654272,0 -155.370693,19.654122,0 -155.370534,19.654245,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00019">
+			<name>21</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kcc</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kcc</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.5373</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>319.22</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.361389,19.638439,0 -155.361485,19.638398,0 -155.361643,19.638436,0 -155.361786,19.638396,0 -155.361897,19.638308,0 -155.361855,19.638245,0 -155.361979,19.638155,0 -155.362028,19.638075,0 -155.361971,19.637939,0 -155.361837,19.637896,0 -155.361649,19.637896,0 -155.361557,19.637952,0 -155.361557,19.638025,0 -155.361456,19.638023,0 -155.361368,19.637903,0 -155.361326,19.637889,0 -155.36119,19.637869,0 -155.361028,19.637889,0 -155.360939,19.637987,0 -155.360971,19.638135,0 -155.360971,19.638206,0 -155.361052,19.638306,0 -155.361142,19.638382,0 -155.361389,19.638439,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00020">
+			<name>25</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Ki</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Ki</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>0.3595</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>236.31</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.362264,19.64886,0 -155.362052,19.649044,0 -155.361956,19.649196,0 -155.361925,19.649346,0 -155.362072,19.649442,0 -155.362223,19.649398,0 -155.362496,19.649271,0 -155.36259,19.649127,0 -155.36267,19.649031,0 -155.3627,19.648876,0 -155.362505,19.648751,0 -155.362264,19.64886,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00021">
+			<name>10</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K10</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K10</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>1.7626</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>704.17</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.362379,19.666793,0 -155.362417,19.666922,0 -155.362491,19.667052,0 -155.362623,19.667083,0 -155.362807,19.667083,0 -155.362864,19.667031,0 -155.362847,19.666908,0 -155.362924,19.666781,0 -155.363175,19.666801,0 -155.363284,19.666976,0 -155.363421,19.666954,0 -155.363645,19.666876,0 -155.363878,19.666835,0 -155.364131,19.666837,0 -155.364311,19.666938,0 -155.364382,19.66687,0 -155.364284,19.666684,0 -155.364271,19.66649,0 -155.36431,19.666357,0 -155.364247,19.666338,0 -155.364094,19.666215,0 -155.364028,19.666046,0 -155.364143,19.665963,0 -155.364052,19.665868,0 -155.363871,19.665805,0 -155.363753,19.665735,0 -155.363549,19.665676,0 -155.363427,19.665757,0 -155.363464,19.665841,0 -155.363545,19.665918,0 -155.363596,19.665984,0 -155.363501,19.665983,0 -155.363352,19.665883,0 -155.363257,19.665905,0 -155.363136,19.665961,0 -155.363072,19.666072,0 -155.36305,19.666228,0 -155.362943,19.666347,0 -155.362875,19.666472,0 -155.362621,19.666523,0 -155.362417,19.666634,0 -155.362379,19.666793,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00022">
+			<name>6</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K6</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K6</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>1.1685</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>542.52</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.357976,19.670059,0 -155.358122,19.670124,0 -155.358205,19.670201,0 -155.358308,19.670324,0 -155.358517,19.670324,0 -155.358623,19.670278,0 -155.358615,19.670203,0 -155.35868,19.670102,0 -155.358718,19.670019,0 -155.358715,19.669949,0 -155.358594,19.669826,0 -155.358506,19.669759,0 -155.358529,19.66962,0 -155.358662,19.669467,0 -155.358752,19.669339,0 -155.358773,19.669045,0 -155.358716,19.668931,0 -155.358641,19.668854,0 -155.358535,19.668872,0 -155.358467,19.668936,0 -155.358453,19.669066,0 -155.358367,19.669138,0 -155.35821,19.669195,0 -155.358109,19.669263,0 -155.357972,19.669334,0 -155.357845,19.669408,0 -155.357795,19.669547,0 -155.357728,19.66967,0 -155.357694,19.669835,0 -155.357634,19.669895,0 -155.357547,19.669952,0 -155.357497,19.670046,0 -155.357484,19.670162,0 -155.357707,19.670244,0 -155.357754,19.670185,0 -155.357778,19.670052,0 -155.357827,19.669993,0 -155.357976,19.670059,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00023">
+			<name>15</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K15</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K15</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>3.5558</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>901.2</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.337604,19.672208,0 -155.337484,19.672411,0 -155.337465,19.672661,0 -155.337668,19.672789,0 -155.338033,19.672941,0 -155.33838,19.673119,0 -155.338686,19.673258,0 -155.339011,19.673164,0 -155.339347,19.673129,0 -155.339662,19.672917,0 -155.339519,19.672828,0 -155.33947,19.672725,0 -155.339566,19.672536,0 -155.339689,19.67233,0 -155.33976,19.672101,0 -155.339964,19.672098,0 -155.340229,19.672098,0 -155.340353,19.672033,0 -155.34053,19.671916,0 -155.340328,19.671919,0 -155.340193,19.671861,0 -155.340034,19.671823,0 -155.339964,19.671765,0 -155.340042,19.671625,0 -155.339924,19.671533,0 -155.339718,19.671517,0 -155.339516,19.671525,0 -155.339424,19.67159,0 -155.339503,19.671678,0 -155.339478,19.671759,0 -155.339373,19.671716,0 -155.338992,19.671654,0 -155.338599,19.671637,0 -155.338243,19.67169,0 -155.337949,19.671777,0 -155.337763,19.671957,0 -155.337604,19.672208,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00024">
+			<name>3</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K3</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K3</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>2.2152</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>703.66</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.346084,19.670776,0 -155.346234,19.670841,0 -155.346312,19.670774,0 -155.346459,19.670776,0 -155.346643,19.670722,0 -155.346658,19.670636,0 -155.346745,19.670561,0 -155.346957,19.670554,0 -155.347096,19.670638,0 -155.347194,19.670711,0 -155.347382,19.670642,0 -155.347491,19.670596,0 -155.347661,19.670585,0 -155.347775,19.670546,0 -155.347734,19.670481,0 -155.347665,19.670404,0 -155.347632,19.670307,0 -155.347758,19.670274,0 -155.347913,19.670298,0 -155.347981,19.670239,0 -155.348065,19.670117,0 -155.348119,19.670017,0 -155.348073,19.669921,0 -155.347987,19.669857,0 -155.347872,19.669856,0 -155.347804,19.66981,0 -155.347774,19.669727,0 -155.347663,19.669657,0 -155.347562,19.669583,0 -155.347481,19.669492,0 -155.347381,19.669411,0 -155.347252,19.669394,0 -155.347158,19.669421,0 -155.347083,19.669498,0 -155.347002,19.669613,0 -155.346901,19.669759,0 -155.346814,19.669802,0 -155.34666,19.669762,0 -155.346608,19.669688,0 -155.346479,19.669704,0 -155.346318,19.669728,0 -155.346192,19.669775,0 -155.346118,19.669865,0 -155.346193,19.669972,0 -155.346154,19.670063,0 -155.346047,19.670146,0 -155.345939,19.670221,0 -155.345874,19.670346,0 -155.345832,19.670511,0 -155.346016,19.670638,0 -155.346084,19.670776,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00025">
+			<name>18</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Ka</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Ka</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>3.0066</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>776.42</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.333284,19.674151,0 -155.333179,19.67434,0 -155.33311,19.674498,0 -155.333174,19.674703,0 -155.333469,19.674987,0 -155.333402,19.675168,0 -155.333478,19.675336,0 -155.333769,19.675527,0 -155.333999,19.675692,0 -155.33432,19.675772,0 -155.334606,19.675606,0 -155.334751,19.675468,0 -155.334789,19.675164,0 -155.334847,19.674977,0 -155.335108,19.674884,0 -155.335268,19.674853,0 -155.335225,19.674682,0 -155.33506,19.674513,0 -155.335065,19.674357,0 -155.335219,19.674232,0 -155.335219,19.674062,0 -155.335044,19.674026,0 -155.334766,19.674106,0 -155.334535,19.674106,0 -155.334438,19.67398,0 -155.334578,19.673864,0 -155.334369,19.673843,0 -155.334228,19.674015,0 -155.33404,19.674106,0 -155.333888,19.674146,0 -155.333671,19.674131,0 -155.33347,19.67407,0 -155.333284,19.674151,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00026">
+			<name>19</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kb</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kb</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>2.6184</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>702.09</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.331461,19.675137,0 -155.331563,19.675266,0 -155.331819,19.675103,0 -155.33217,19.675113,0 -155.332414,19.675063,0 -155.332672,19.674902,0 -155.332736,19.674683,0 -155.332771,19.674351,0 -155.332784,19.673989,0 -155.332755,19.673851,0 -155.332458,19.673851,0 -155.332472,19.673628,0 -155.33256,19.673448,0 -155.332404,19.673298,0 -155.332121,19.673369,0 -155.332045,19.673676,0 -155.331982,19.673873,0 -155.331858,19.673932,0 -155.331493,19.673942,0 -155.331215,19.673976,0 -155.330935,19.674323,0 -155.330878,19.674642,0 -155.331121,19.674899,0 -155.331461,19.675137,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00027">
+			<name>26</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kj</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>26</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kj</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>2.1401</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>586.25</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.361307,19.639747,0 -155.361285,19.639944,0 -155.361053,19.640024,0 -155.360865,19.640095,0 -155.360668,19.640268,0 -155.360543,19.640352,0 -155.36057,19.640541,0 -155.360731,19.64081,0 -155.361107,19.640937,0 -155.361655,19.64101,0 -155.361832,19.640791,0 -155.362045,19.640656,0 -155.36219,19.640497,0 -155.362309,19.640313,0 -155.362419,19.640171,0 -155.362493,19.639946,0 -155.362541,19.639759,0 -155.362334,19.639589,0 -155.361999,19.639548,0 -155.361848,19.639643,0 -155.361587,19.63958,0 -155.361307,19.639747,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00028">
+			<name>27</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kk</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>27</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kk</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>3.7205</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>914.99</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.349708,19.641279,0 -155.349829,19.641346,0 -155.3501,19.641195,0 -155.350287,19.641237,0 -155.350531,19.641337,0 -155.350865,19.641294,0 -155.351125,19.641187,0 -155.351374,19.640971,0 -155.35115,19.640788,0 -155.351217,19.640555,0 -155.351391,19.64039,0 -155.351353,19.640109,0 -155.351097,19.640109,0 -155.350732,19.64011,0 -155.350628,19.63994,0 -155.350792,19.63979,0 -155.350718,19.639577,0 -155.35041,19.639365,0 -155.35002,19.639402,0 -155.349947,19.639522,0 -155.350144,19.63962,0 -155.350087,19.639799,0 -155.349906,19.639872,0 -155.34965,19.639935,0 -155.349377,19.639999,0 -155.349071,19.640069,0 -155.349134,19.64037,0 -155.348954,19.640673,0 -155.348778,19.640803,0 -155.348835,19.640998,0 -155.34899,19.64111,0 -155.349467,19.641183,0 -155.349708,19.641279,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00029">
+			<name>32</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kp</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>32</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kp</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>2.818</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>885.67</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.358301,19.638987,0 -155.358509,19.63907,0 -155.358618,19.63918,0 -155.358648,19.639351,0 -155.358642,19.639505,0 -155.358756,19.639608,0 -155.358926,19.639676,0 -155.359079,19.639727,0 -155.359501,19.639653,0 -155.359588,19.639506,0 -155.359617,19.639426,0 -155.359786,19.63938,0 -155.359846,19.639276,0 -155.359846,19.639114,0 -155.359856,19.638949,0 -155.359945,19.638897,0 -155.36008,19.638833,0 -155.360167,19.638775,0 -155.360241,19.638739,0 -155.360292,19.638918,0 -155.36041,19.639002,0 -155.360603,19.639032,0 -155.360715,19.639007,0 -155.360763,19.638923,0 -155.360708,19.638769,0 -155.360638,19.638687,0 -155.36058,19.638584,0 -155.360579,19.638439,0 -155.360724,19.638355,0 -155.36073,19.63828,0 -155.360469,19.638254,0 -155.360124,19.638253,0 -155.35979,19.638251,0 -155.359613,19.638266,0 -155.359577,19.638208,0 -155.35948,19.638202,0 -155.359272,19.638195,0 -155.359011,19.638207,0 -155.358819,19.638299,0 -155.358719,19.638363,0 -155.358761,19.63852,0 -155.358703,19.638624,0 -155.358575,19.638667,0 -155.358429,19.638602,0 -155.358163,19.638636,0 -155.358026,19.638698,0 -155.3579,19.638797,0 -155.357893,19.638918,0 -155.357923,19.638986,0 -155.358134,19.638966,0 -155.358301,19.638987,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00030">
+			<name>31</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Koo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>31</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Koo</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>3.5713</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>882.75</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.369557,19.634442,0 -155.369828,19.634312,0 -155.369959,19.634049,0 -155.369969,19.633943,0 -155.369823,19.633877,0 -155.369608,19.633794,0 -155.369509,19.633704,0 -155.369649,19.633677,0 -155.369806,19.633655,0 -155.369918,19.633693,0 -155.370179,19.633667,0 -155.370363,19.633638,0 -155.37052,19.633587,0 -155.370587,19.633475,0 -155.370556,19.633389,0 -155.370656,19.633303,0 -155.370742,19.633081,0 -155.370715,19.63289,0 -155.370619,19.632732,0 -155.370299,19.632607,0 -155.37007,19.632637,0 -155.369748,19.632559,0 -155.369337,19.632518,0 -155.369107,19.632685,0 -155.368883,19.633035,0 -155.368631,19.633366,0 -155.368584,19.633389,0 -155.368455,19.633558,0 -155.368391,19.633766,0 -155.36826,19.633943,0 -155.368259,19.634149,0 -155.368211,19.634273,0 -155.368175,19.634387,0 -155.368366,19.634351,0 -155.368462,19.63437,0 -155.368646,19.634425,0 -155.368921,19.634408,0 -155.369073,19.63436,0 -155.369334,19.634359,0 -155.369557,19.634442,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00031">
+			<name>5</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>K5</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>K5</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>10.0152</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>1690.53</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>treated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.34956,19.66603,0 -155.349675,19.666318,0 -155.349838,19.666566,0 -155.350087,19.666544,0 -155.350557,19.666368,0 -155.350794,19.666244,0 -155.350815,19.666124,0 -155.350889,19.666004,0 -155.351073,19.666088,0 -155.351289,19.666259,0 -155.351551,19.666139,0 -155.35177,19.665906,0 -155.352196,19.665835,0 -155.352531,19.665625,0 -155.352922,19.665481,0 -155.353536,19.665368,0 -155.354083,19.665154,0 -155.354433,19.664813,0 -155.354854,19.664462,0 -155.354631,19.664057,0 -155.354414,19.663841,0 -155.354319,19.663626,0 -155.354117,19.663549,0 -155.353879,19.663627,0 -155.353746,19.663626,0 -155.353748,19.663561,0 -155.353812,19.66339,0 -155.353866,19.663205,0 -155.353621,19.663116,0 -155.353421,19.663056,0 -155.353241,19.663032,0 -155.353162,19.663211,0 -155.353246,19.663458,0 -155.353183,19.663619,0 -155.352873,19.66365,0 -155.352608,19.663757,0 -155.352509,19.663832,0 -155.352143,19.663662,0 -155.351905,19.663747,0 -155.351754,19.663967,0 -155.351688,19.664258,0 -155.351442,19.664383,0 -155.351199,19.664359,0 -155.35109,19.664504,0 -155.350814,19.664616,0 -155.350925,19.664836,0 -155.350986,19.665102,0 -155.35087,19.665216,0 -155.350666,19.665187,0 -155.350507,19.664901,0 -155.350056,19.664867,0 -155.349721,19.66514,0 -155.34958,19.665443,0 -155.349535,19.665771,0 -155.34956,19.66603,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00032">
+			<name>35</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Ku</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>35</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Ku</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>12.3735</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>1485.9</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.370722,19.64604,0 -155.370536,19.646354,0 -155.370184,19.646362,0 -155.369783,19.64673,0 -155.36942,19.646976,0 -155.369144,19.647456,0 -155.369065,19.647912,0 -155.369472,19.648582,0 -155.369729,19.648888,0 -155.36968,19.649391,0 -155.369592,19.649727,0 -155.369721,19.6501,0 -155.369623,19.650401,0 -155.369554,19.650552,0 -155.370158,19.650586,0 -155.37079,19.650368,0 -155.371203,19.650217,0 -155.371597,19.649834,0 -155.371902,19.649406,0 -155.372109,19.6489,0 -155.372243,19.648353,0 -155.372168,19.647854,0 -155.372415,19.647789,0 -155.372264,19.647411,0 -155.371997,19.647347,0 -155.372153,19.647061,0 -155.37225,19.6466,0 -155.372237,19.646196,0 -155.371834,19.64618,0 -155.37117,19.645959,0 -155.370722,19.64604,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00033">
+			<name>33</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Kr</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>Kipuka_ID</td>
+
+<td>33</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>OLD_Name</td>
+
+<td>Kr</td>
+
+</tr>
+
+<tr>
+
+<td>Area_ha</td>
+
+<td>10.18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Perim_m</td>
+
+<td>1504.76</td>
+
+</tr>
+
+<tr>
+
+<td>RatRemoval</td>
+
+<td>untreated</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#PolyStyle00</styleUrl>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-155.346211,19.644162,0 -155.346569,19.644256,0 -155.346676,19.644344,0 -155.346914,19.644521,0 -155.347323,19.644547,0 -155.347571,19.64438,0 -155.347855,19.644378,0 -155.348145,19.644342,0 -155.348422,19.64416,0 -155.348631,19.643954,0 -155.348771,19.643777,0 -155.349083,19.643639,0 -155.349193,19.643754,0 -155.349377,19.643895,0 -155.349822,19.643848,0 -155.350117,19.643797,0 -155.350343,19.643537,0 -155.350593,19.64331,0 -155.350636,19.643064,0 -155.350526,19.642812,0 -155.350211,19.642822,0 -155.350031,19.642913,0 -155.349923,19.642821,0 -155.350023,19.642633,0 -155.349779,19.642514,0 -155.349466,19.642496,0 -155.349351,19.642351,0 -155.349003,19.642419,0 -155.348594,19.64229,0 -155.348293,19.642124,0 -155.348147,19.642236,0 -155.347961,19.642023,0 -155.347676,19.64181,0 -155.347185,19.641769,0 -155.346962,19.641865,0 -155.346512,19.641958,0 -155.346254,19.641989,0 -155.34599,19.64247,0 -155.345965,19.642798,0 -155.345998,19.643103,0 -155.345984,19.643332,0 -155.346002,19.643572,0 -155.345679,19.643595,0 -155.345353,19.64369,0 -155.345442,19.643913,0 -155.34565,19.644097,0 -155.346014,19.64409,0 -155.346211,19.644162,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
