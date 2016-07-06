@@ -38,12 +38,11 @@ sites <- do.call(rbind, sites)
 setwd('~/Dropbox/hawaiiDimensions/geoData/maps')
 
 ## colors for flow ages
-geo.col <- c('gray', colorRampPalette(brewer.pal(9,"YlGnBu"))(max(hi.geo.poly@data$AGE_GROUP)))
+geo.col <- c(NA, colorRampPalette(brewer.pal(9,"YlGnBu"))(max(hi.geo.poly@data$AGE_GROUP)))
 
 ## plotting
-png(filename='map_sites.png', width=10, height=5, units='in', res=4000)
 
-pdf('map_sites.pdf', width=10, height=5)
+jpeg(filename='map_sites.jpg', width=10, height=5, units='in', res=400)
 par(mar=rep(0, 4))
 plot(hi.geo.poly, col=geo.col[hi.geo.poly$AGE_GROUP+1], border=geo.col[hi.geo.poly$AGE_GROUP+1])
 plot(islands, add=TRUE)
