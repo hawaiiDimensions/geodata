@@ -54,9 +54,9 @@ site.ages <- as.numeric(site.ages) / 10^6
 
 ## plotting
 
-jpeg(filename='map_sites.jpg', width=10, height=5, units='in', res=400)
+jpeg(filename='map_sites.jpg', width=10, height=5, units='in', res=400, bg='black')
 close.screen(all.screens = TRUE)
-par(mar=rep(0, 4))
+par(mar=rep(0, 4), bg='black', fg='white', col.lab='white')
 plot(hi.geo.poly, col=geo.col[hi.geo.poly$AGE_GROUP+1], border=geo.col[hi.geo.poly$AGE_GROUP+1])
 plot(islands, add=TRUE)
 plot(sites, add=TRUE, pch=21, col='white', bg='black', cex=1.5)
