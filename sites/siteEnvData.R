@@ -24,3 +24,10 @@ site.ages[grep('About', site.ages)] <- sapply(strsplit(gsub('About ', '', site.a
 site.ages <- as.numeric(site.ages)
 
 plots@data$age <- site.ages
+
+
+## write out shape files and csv of env data
+writeOGR(plots, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', overwrite_layer=TRUE)
+plotsTab <- read.csv('dimensions_plots.csv')
+plotsTab$age <- plots@data$age[match(plotsTab$plot_name, plots@data$name)]
+write.csv(plotsTab, 'dimensions_plots.csv', row.names = FALSE)
