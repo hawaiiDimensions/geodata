@@ -4,7 +4,7 @@ library(sp)
 library(rgdal)
 
 ## load plots
-plots <- readOGR('.', 'dimensions_plots', )
+plots <- readOGR('.', 'dimensions_plots')
 
 ## add data to plots sp object
 
