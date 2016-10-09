@@ -1,0 +1,63 @@
+Layer Name:	Elevation Ranges
+
+Coverage Name:	ELRANGE	
+
+Layer Type:	Polygon
+
+Status:		Complete
+
+Geog. Extent:	Islands of Kauai, Oahu, Molokai, Lanai, Maui,
+		Kahoolawe and Hawaii
+
+Projection:	Universal Trans Mercator, Zone 4 (Meters)
+
+Datum:		NAD 83
+
+Description:	Created using the 1983 USGS DEMs.
+		
+Source:		USGS Digital Elevation Models, 1983 version.		
+
+History:	Elevation Range polygons created using elevation contours
+		generated from the USGS 1:24,000 and 1:250,000 DEMs, 
+		(1:250,000:  Hawaii, Kauai, Maui, Molokai, Oahu, 
+		1:24,000:  Kahoolawe, Lanai), using Arc/Info v.6.
+		
+Attributes:	Polygons:
+		
+		AREA          	Area of polygon (for Arc/Info use)       
+		PERIMETER       Perimeter of polygon (for Arc/Info use)       
+		<ISL>ELRNG#     Polygon Internal Number (for Arc/Info use)       
+		<ISL>ELRNG-ID   Polygon ID (for Arc/Info use)       
+		LOWELEV       	Low Value of elevation range
+		HIGHELEV	High Value of elevation range    
+		
+		
+		Arcs:
+		
+		FNODE#		From Node # (for Arc/Info use)
+		TNODE#		To Node # (for Arc/Info use)
+		LPOLY#		Left Polygon # (for Arc/Info use)
+		RPOLY#		Right Polygon # (for Arc/Info use)
+		LENGTH		Length of Arc in meters
+		<ISL>ELRNG#	Arc Internal # (for Arc/Info use)
+		<ISL>ELRNG-ID	Arc ID (for Arc/Info use)
+		CONTOUR		Elevation along arc
+		FLAG     		Source of arc
+		
+		
+		FLAG            Definition
+
+                0               Digitized arc
+                1               Extracted arc (from 1:24,000 DLGs)
+                2               Closure arc
+                3               Coastline arc
+                9               Other
+		                 
+		
+			  	  	  
+		
+Contact:	Joan Delos Santos, Office of Planning, State of Hawaii, 
+		PO Box 2359, Honolulu, Hi.  96804; (808) 587-2895.
+		email:  JDelos_Santos@dbedt.hawaii.gov
+					
+
