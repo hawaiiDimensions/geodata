@@ -3,9 +3,8 @@ library(maptools)
 library(rgdal)
 library(RColorBrewer)
 library(rgeos)
+library(socorro)
 
-## needed functions
-source('~/R_functions/logAxis.R')
 
 ## load flow layers
 setwd('~/Dropbox/hawaiiDimensions/geoData/site_selection/Haw_St_shapefiles/Haw_St_geo_20070426_region')
