@@ -1,17 +1,16 @@
-setwd('~/Dropbox/hawaiiDimensions/geodata/sites')
+## ====================================================================
+## script to add environmental data to spatial data on Dimensions plots
+## then write it back out to shape files and csv
+## ====================================================================
 
 library(sp)
 library(rgdal)
 library(raster)
 
-## ==========
-## load plots
-## ==========
-plots <- readOGR('.', 'dimensions_plots')
+setwd('~/Dropbox/hawaiiDimensions/geodata/sites')
 
-## ===========================
-## add data to plots sp object
-## ===========================
+## load plots
+plots <- readOGR('.', 'dimensions_plots')
 
 ## ==================
 ## age and other geol
@@ -37,7 +36,6 @@ plots$ageMin_mya <- plotsGeol$age_min
 plots$ageMax_mya <- plotsGeol$age_max
 plots$ageMid_mya <- plotsGeol$age_mid
 
-head(plots)
 
 ## =========
 ## elevation
@@ -72,13 +70,31 @@ plots$elevation_m <- allElev$elevation_m[match(plots$name, allElev$plot_name)]
 ## precip
 ## ======
 
+## directories with precip data
+precipDirs <- list.dirs('../env_data/precip/StateRFGrids_mm2')
+precipDirs <- precipDirs[grep('staterf_mm', precipDirs)]
+
+## extract precip values
+precip <- lapply(precipDirs, function(d) {
+    r <- raster(paste(d, 'w001001.adf', sep = '/'))
+    extract(r, spTransform(plots, CRS(proj4string(r))))
+})
+
+## add to plots (looping instead of binding so we over-write potential existing data)
+for(i in 1:13) {
+    n <- paste('AvgPrecip', 
+               c('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Den', 'Ann'), 
+               '_mm', sep = '')[i]
+    plots[[n]] <- precip[[i]]
+}
 
 
 ## =========================================
 ## write out shape files and csv of env data
 ## =========================================
 
-writeOGR(plots, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', overwrite_layer=TRUE)
+writeOGR(plots, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', 
+         overwrite_layer=TRUE)
 plotsTab <- read.csv('dimensions_plots.csv')
 plotsTab$age <- plots@data$age[match(plotsTab$plot_name, plots@data$name)]
 write.csv(plotsTab, 'dimensions_plots.csv', row.names = FALSE)
