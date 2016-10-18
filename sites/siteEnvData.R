@@ -17,21 +17,27 @@ plots <- readOGR('.', 'dimensions_plots')
 ## age and other geol
 ## ==================
 
-hi.geo.poly <- readOGR('../env_data/geol/Haw_St_geo_20070426_region', 
-                       'Haw_St_geo_20070426_region')
-hi.geo.poly <- spTransform(hi.geo.poly, CRS(proj4string(plots)))
-site.ages <- as.character(over(plots, hi.geo.poly)$AGE_RANGE)
-site.ages[grep('A.D.', site.ages)] <- sapply(strsplit(gsub('A.D. ', '', site.ages[grep('A.D.', site.ages)]), '-'), 
-                                             function(x) 2016 - mean(as.numeric(x)))
-site.ages[grep('yr', site.ages)] <- sapply(strsplit(gsub(',| yr', '', site.ages[grep('yr', site.ages)]), '-'), 
-                                           function(x) mean(as.numeric(x)))
-site.ages[grep('Ma', site.ages)] <- sapply(strsplit(gsub('Ma', '', site.ages[grep('Ma', site.ages)]), '-'), 
-                                           function(x) mean(as.numeric(x)) * 10^6)
-site.ages[grep('About', site.ages)] <- sapply(strsplit(gsub('About ', '', site.ages[grep('About', site.ages)]), ' to '), 
-                                              function(x) mean(as.numeric(x)) * 10^6)
-site.ages <- as.numeric(site.ages)
+hiGeol <- readOGR('../env_data/geol/hawaii_state_geol_ageClean.shp', 'hawaii_state_geol_ageClean')
+plotsGeol <- over(plots, spTransform(hiGeol, CRS(proj4string(plots))))
 
-plots@data$age <- site.ages
+plots$island <- as.character(plotsGeol$ISLAND)
+
+plots$volcano <- as.character(plotsGeol$VOLCANO)
+plots$volcano[plots$volcano =='mloa'] <- 'Mauna Loa'
+plots$volcano[plots$volcano =='kila'] <- 'Kilauea'
+plots$volcano[plots$volcano =='mkea'] <- 'Mauna Kea'
+plots$volcano[plots$volcano =='emol'] <- 'East Molokai'
+plots$volcano[plots$volcano =='koha'] <- 'Kohala'
+plots$volcano[plots$volcano =='kaua'] <- 'Kauai'
+plots$volcano[plots$volcano =='hale'] <- 'Haleakala'
+
+plots$rockType <- plotsGeol$ROCK_TYPE
+
+plots$ageMin_mya <- plotsGeol$age_min
+plots$ageMax_mya <- plotsGeol$age_max
+plots$ageMid_mya <- plotsGeol$age_mid
+
+head(plots)
 
 ## =========
 ## elevation
@@ -61,6 +67,12 @@ allElev <- rbind(elev('maui', plots[grepl('waikamoi', plots$name), ]),
                  read.csv('../env_data/plot_elevation.csv', as.is = TRUE))
 
 plots$elevation_m <- allElev$elevation_m[match(plots$name, allElev$plot_name)]
+
+## ======
+## precip
+## ======
+
+
 
 ## =========================================
 ## write out shape files and csv of env data
