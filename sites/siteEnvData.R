@@ -1,6 +1,6 @@
 ## ====================================================================
 ## script to add environmental data to spatial data on Dimensions plots
-## then write it back out to shape files and csv
+## then write it back out to csv
 ## ====================================================================
 
 library(sp)
@@ -80,21 +80,21 @@ precip <- lapply(precipDirs, function(d) {
     extract(r, spTransform(plots, CRS(proj4string(r))))
 })
 
-## add to plots (looping instead of binding so we over-write potential existing data)
-for(i in 1:13) {
-    n <- paste('AvgPrecip', 
-               c('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Den', 'Ann'), 
-               '_mm', sep = '')[i]
-    plots[[n]] <- precip[[i]]
-}
+## add to plots 
+precip <- do.call(data.frame, precip)
+names(precip) <- paste('AvgPrecip', c('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                                      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Den', 'Ann'), 
+                       '_mm', sep = '')
+plots@data <- cbind(plots@data, precip)
 
 
-## =========================================
-## write out shape files and csv of env data
-## =========================================
+## =========================
+## write out csv of env data
+## =========================
 
-writeOGR(plots, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', 
-         overwrite_layer=TRUE)
-plotsTab <- read.csv('dimensions_plots.csv')
-plotsTab$age <- plots@data$age[match(plotsTab$plot_name, plots@data$name)]
-write.csv(plotsTab, 'dimensions_plots.csv', row.names = FALSE)
+plotsDat <- plots@data
+xy <- as.data.frame(coordinates(plots))
+names(xy) <- c('lon', 'lat')
+plotsDat <- cbind(name = plotsDat[, 1], xy, projection = proj4string(plots), plotsDat[, -1])[1:3, ]
+
+write.csv(plotsDat, 'dimensions_plots_envData.csv', row.names = FALSE)
