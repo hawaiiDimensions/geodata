@@ -216,13 +216,6 @@
       <Point><coordinates>-155.590164167806506,19.184424541890621</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>kaiholenaOld_71</name>
-	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
-		<SimpleData name="dateCreated">2014/05/30 04:19:20+00</SimpleData>
-	</SchemaData></ExtendedData>
-      <Point><coordinates>-155.584821626543999,19.181908210739493</coordinates></Point>
-  </Placemark>
-  <Placemark>
 	<name>kaiholenaYng_02</name>
 	<ExtendedData><SchemaData schemaUrl="#dimensions_plots">
 		<SimpleData name="dateCreated">2014/07/15 21:54:17+00</SimpleData>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<gpx version="1.1" creator="GDAL 1.11.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="GDAL 1.11.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="19.181908210739493" minlon="-159.623150993138552" maxlat="22.150283027440310" maxlon="-155.212151398882270"/></metadata>              
 <wpt lat="19.230916695669293" lon="-155.513401441276073">
   <name>alili_01</name>
@@ -90,9 +90,6 @@
 </wpt>
 <wpt lat="19.184424541890621" lon="-155.590164167806506">
   <name>kaiholenaOld_10</name>
-</wpt>
-<wpt lat="19.181908210739493" lon="-155.584821626543999">
-  <name>kaiholenaOld_71</name>
 </wpt>
 <wpt lat="19.183487109839916" lon="-155.583639275282621">
   <name>kaiholenaYng_02</name>

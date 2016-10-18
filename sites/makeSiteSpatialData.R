@@ -28,15 +28,16 @@ compileGPX <- function(f) {
 ## implement function on all GPX files, binding output into one SpatialPointsDataFrame
 out <- lapply(paste('waypoints', list.files('waypoints', pattern='\\.GPX'), sep='/'), compileGPX)
 out <- do.call(rbind, out)
+
+## remove spurious kaiholena old plot
+out <- out[-grep('kaiholenaOld_71', out$name), ]
+
+## make gpx ready version
 out.gpx <- out
 out.gpx@data <- data.frame(name=out.gpx@data$name)
 
 ## write combined data to multiple formats
-writeOGR(out.gpx, 'dimensions_plots.gpx', layer='waypoints', driver='GPX', overwrite_layer=TRUE)
-writeOGR(out, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', overwrite_layer=TRUE)
-writeOGR(out, 'dimensions_plots.kml', layer='dimensions_plots', driver='KML', overwrite_layer=TRUE)
-
-setwd('~/Dropbox/hawaiiDimensions/site_selection/all_plots')
-writeOGR(out.gpx, 'dimensions_plots.gpx', layer='waypoints', driver='GPX', overwrite_layer=TRUE)
+if('dimensions_plots.gpx' %in% list.files()) system(sprintf('rm %s/dimensions_plots.gpx', getwd()))
+writeOGR(out.gpx, 'dimensions_plots.gpx', layer='waypoints', driver='GPX')
 writeOGR(out, 'dimensions_plots.shp', layer='dimensions_plots', driver='ESRI Shapefile', overwrite_layer=TRUE)
 writeOGR(out, 'dimensions_plots.kml', layer='dimensions_plots', driver='KML', overwrite_layer=TRUE)
