@@ -98,3 +98,40 @@ names(xy) <- c('lon', 'lat')
 plotsDat <- cbind(name = plotsDat[, 1], xy, projection = proj4string(plots), plotsDat[, -1])[1:3, ]
 
 write.csv(plotsDat, 'dimensions_plots_envData.csv', row.names = FALSE)
+
+## =============
+## plot env data
+## =============
+
+library(RColorBrewer)
+library(socorro)
+
+ageCol <- function(a) {
+    rgb(colorRamp(c(brewer.pal(9, 'YlOrRd'), 
+                          hsv(1, 0.5, 0.3)))(log(a*10^6)/log(max(plots$ageMax_mya*10^6))),
+              maxColorValue = 255)
+}
+
+pdf('fig_elevPrecipAge.pdf', width = 5.5, height = 4)
+
+layout(matrix(1:2, nrow = 1), widths = c(4, 1.5))
+
+par(mar = c(3, 3, 0, 0) + 0.5, mgp = c(2.25, 0.75, 0))
+plot(plots$elevation_m, plots$AvgPrecipAnn_mm, 
+     bg = ageCol(plots$ageMid_mya), pch = 21,
+     xlab = 'Elevation (m)', ylab = 'Mean Annual Precipitation (mm)', 
+     cex.lab = 1.2, cex = 1.2)
+
+par(mar = c(4, 0.5, 1, 4) + 0.5)
+plot(range(plots$ageMin_mya, plots$ageMax_mya)*10^6, xaxs = 'i', yaxs = 'i', log = 'y',
+     axes = FALSE, type = 'n', xlab = '', ylab = '')
+rect(xleft = par('usr')[1], xright = par('usr')[2], 
+     ybottom = 10^seq(par('usr')[3], par('usr')[4], length = 50)[-50], 
+     ytop = 10^seq(par('usr')[3], par('usr')[4], length = 50)[-1],
+     col = ageCol(10^(seq(par('usr')[3], par('usr')[4], length = 49) - 6)),
+     border = NA)
+box()
+logAxis(4)
+mtext('Substrate age (years)', side = 4, line = 2.25, cex = 1.2)
+
+dev.off()
