@@ -13,9 +13,9 @@ plots <- readOGR('.', 'dimensions_plots')
 ## add data to plots sp object
 ## ===========================
 
-## ===
-## age
-## ===
+## ==================
+## age and other geol
+## ==================
 
 hi.geo.poly <- readOGR('../env_data/geol/Haw_St_geo_20070426_region', 
                        'Haw_St_geo_20070426_region')
@@ -40,10 +40,27 @@ plots@data$age <- site.ages
 ## helper function to read in raster DEM for island and match 
 ## plots on that island, extracting their elevation
 elev <- function(island, plots) {
-    x <- readLines(sprintf('../env_data/%sDEM/README.%s', island, island), n = 1)
+    info <- readLines(sprintf('../env_data/%sDEM/README.%s', island, island), n = 1)
+    info <- strsplit(info, ', ')[[1]]
     
+    thisCRS <- sprintf('+proj=utm +zone=%s +datum=%s', gsub('UTM zone ', '', info[2]), info[3])
+    
+    r <- raster(sprintf('../env_data/%sDEM/%s.bil', island, island), crs = CRS(thisCRS))
+    
+    plots <- spTransform(plots, CRS(proj4string(r)))
+    
+    e <- extract(r, plots)
+    e <- round(e*ifelse(max(e) > 2000, 0.3048, 1))
+    
+    return(data.frame(plot_name = plots$name, elevation_m = e))
 }
-molElev <- raster('~/Dropbox/hawaiiDimensions/geodata/env_data/molokai/molokai.bil', crs = CRS('+proj=utm +zone=4 +datum=NAD27'))
+
+allElev <- rbind(elev('maui', plots[grepl('waikamoi', plots$name), ]), 
+                 elev('molokai', plots[grepl('kamakou', plots$name), ]), 
+                 elev('kauai', plots[grepl('kokee', plots$name), ]), 
+                 read.csv('../env_data/plot_elevation.csv', as.is = TRUE))
+
+plots$elevation_m <- allElev$elevation_m[match(plots$name, allElev$plot_name)]
 
 ## =========================================
 ## write out shape files and csv of env data
