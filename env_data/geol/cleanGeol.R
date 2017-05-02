@@ -32,3 +32,4 @@ geoPoly@data <- cbind(geoPoly@data, age.val)
 ## write out
 writeOGR(geoPoly, 'hawaii_state_geol_ageClean.shp', layer = 'hawaii_state_geol_ageClean', 
          driver='ESRI Shapefile', overwrite_layer=TRUE)
+
